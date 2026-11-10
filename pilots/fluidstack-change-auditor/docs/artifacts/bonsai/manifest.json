@@ -1,0 +1,24 @@
+{
+  "captured_on": "2026-11-10",
+  "authoring_mode": "agent-assisted native Bonsai operators in Blender GUI",
+  "owner_review": "pending",
+  "fixture_license": "CC0-1.0; original synthetic fixture derivatives",
+  "video": {
+    "duration_seconds": 87.134,
+    "editing": "First 12 seconds of Blender startup omitted; Blender and browser captures concatenated at normal speed"
+  },
+  "sha256": {
+    "audit.json": "6c60759ef888142da2c827b0b208c11ff8ab7be1fd7625bbf9ff1e239a6e3261",
+    "bonsai-revised.ifc": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+    "bonsai-roundtrip.webm": "1c78bb6b11d61983451ff9bf27e7c48d8f4f59233e5f4a290c9848ac01ea8af6",
+    "bonsai-saved.png": "506ecd18301dafa09facafb91dcf93a1c79605808f801e0874a56eda2dcf6f5c",
+    "browser-audit.png": "9b624b455316ff098ed2bbfd11cc12e7406de49f3536f1edc93f55a3cb5f9d71",
+    "browser-export.json": "43ce2eda8b2db9de4e6f0ad1bb08ac788388d669646e8ca236213f528ffd050b",
+    "browser-verification.json": "45280a4880c3154075d27923e5452e961070f65e91b70c9cb47b6845641587ad",
+    "extension-release.json": "61979a471974f29759cb50eacb368b554303d7d0ea24b92a6e01235f388b9e72",
+    "extrusion-gizmo-crash.txt": "dcaf0cdd6e197cfeb6d4913ff50c2d7489c683fc7871530108d281b5ff3565e2",
+    "session.json": "44b27886453052fa30938e7e252962019bb09345b3546be9135ec3b153d49377",
+    "stale-audit.json": "5c5228c63635861630803ee2249ff346a6f822c7bb98ea945d469993e27518c8",
+    "stale-quantities.ifc": "71cbf9aed77bd8e3c1997249b9341d2b095a6c3724b01f862dfc501a4bbf4a6d"
+  }
+}

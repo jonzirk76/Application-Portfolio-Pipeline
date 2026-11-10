@@ -1,0 +1,40 @@
+# Blender 5.2.2, Commit date: 2026-09-14 15:14, Hash d13f752e3b9c
+bpy.ops.bim.convert_to_blender()  # Operator
+bpy.ops.object.select_all(action='SELECT')  # Operator
+bpy.ops.object.select_all(action='DESELECT')  # Operator
+bpy.ops.bim.load_project_elements()  # Operator
+bpy.ops.bim.load_project(filepath="/home/big/Documents/GitHub/Application Portfolio Pipeline/pilots/fluidstack-change-auditor/fixtures/baseline.ifc", should_start_fresh_session=False, skip_autosave_recovery=True)  # Operator
+bpy.ops.bim.get_representation_ifc_parameters()  # Operator
+bpy.ops.bim.update_parametric_representation(index=0)  # Operator
+
+# backtrace
+/snap/blender/7803/blender() [0x10e512d]
+/snap/blender/7803/blender() [0x78ecde]
+/lib/x86_64-linux-gnu/libc.so.6(+0x99ea8) [0x7e39cfc99ea8]
+/snap/blender/7803/blender() [0x78eb9f]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7e39cfc42520]
+/snap/blender/7803/blender() [0x81fc3a]
+/snap/blender/7803/blender() [0x1d07bfa]
+/snap/blender/7803/blender() [0x1d0cc07]
+/snap/blender/7803/blender() [0x2384ea7]
+/snap/blender/7803/blender() [0x7703c99]
+/snap/blender/7803/blender(_PyObject_MakeTpCall+0x7c) [0x76a5f9c]
+/snap/blender/7803/blender(_PyEval_EvalFrameDefault+0x11bc) [0x77b42ac]
+/snap/blender/7803/blender() [0x237989a]
+/snap/blender/7803/blender() [0x231a8cc]
+/snap/blender/7803/blender() [0x16d3a91]
+/snap/blender/7803/blender() [0x17f383e]
+/snap/blender/7803/blender() [0x17f4581]
+/snap/blender/7803/blender() [0x3339225]
+/snap/blender/7803/blender() [0x24ed141]
+/snap/blender/7803/blender() [0x1682905]
+/snap/blender/7803/blender() [0x168452d]
+/snap/blender/7803/blender() [0x1681990]
+/snap/blender/7803/blender() [0x75f989]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7e39cfc29d90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80) [0x7e39cfc29e40]
+/snap/blender/7803/blender() [0x78994e]
+
+# Python backtrace
+  File "/home/big/Documents/GitHub/Application Portfolio Pipeline/pilots/fluidstack-change-auditor/data/bonsai-runtime/profile/extensions/.local/lib/python3.13/site-packages/bonsai/bim/module/drawing/gizmos.py", line 2551 in refresh
+  File "/home/big/Documents/GitHub/Application Portfolio Pipeline/pilots/fluidstack-change-auditor/data/bonsai-runtime/profile/extensions/.local/lib/python3.13/site-packages/bonsai/bim/module/drawing/gizmos.py", line 2547 in draw

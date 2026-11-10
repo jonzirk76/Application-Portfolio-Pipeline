@@ -1,0 +1,4669 @@
+{
+  "baseline": {
+    "extractor_version": "pilot-1.0",
+    "filename": "baseline.ifc",
+    "id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+    "length_unit_to_m": 1.0,
+    "project_guid": "0MPjsmZ7DPi8jscd2OSpw$",
+    "schema": "IFC4"
+  },
+  "bom": {
+    "baseline": [
+      {
+        "component_guid": "1GIKBmOjDOVBcT1bXi5WAM",
+        "count": 1,
+        "id": "BOM-BEAM-007",
+        "length_m": 3.0,
+        "specification": "Grade A",
+        "tag": "BEAM-007"
+      },
+      {
+        "component_guid": "13ewKmnJrLLxTR2EEx4Z3l",
+        "count": 1,
+        "id": "BOM-BEAM-008",
+        "length_m": 3.0,
+        "specification": "Grade A",
+        "tag": "BEAM-008"
+      },
+      {
+        "component_guid": "0JgVtPJIDUOOSiTyPOKl$P",
+        "count": 1,
+        "id": "BOM-BEAM-009",
+        "length_m": 3.0,
+        "specification": "Grade A",
+        "tag": "BEAM-009"
+      },
+      {
+        "component_guid": "1CYdsSf_nNCPuGtu8DtQNo",
+        "count": 1,
+        "id": "BOM-BEAM-010",
+        "length_m": 3.0,
+        "specification": "Grade A",
+        "tag": "BEAM-010"
+      },
+      {
+        "component_guid": "3UdjncJP5TQhp$iQz7r$IA",
+        "count": 1,
+        "id": "BOM-BEAM-011",
+        "length_m": 4.0,
+        "specification": "Grade A",
+        "tag": "BEAM-011"
+      },
+      {
+        "component_guid": "2p3XBvR59QAgMEHwd$yJti",
+        "count": 1,
+        "id": "BOM-BEAM-012",
+        "length_m": 4.0,
+        "specification": "Grade A",
+        "tag": "BEAM-012"
+      },
+      {
+        "component_guid": "2DG8SKrCLT1f2T1mWlHW1E",
+        "count": 1,
+        "id": "BOM-BEAM-013",
+        "length_m": 4.0,
+        "specification": "Grade A",
+        "tag": "BEAM-013"
+      },
+      {
+        "component_guid": "1x842QenjT7xv_8_Lg0OlW",
+        "count": 1,
+        "id": "BOM-BEAM-014",
+        "length_m": 4.0,
+        "specification": "Grade A",
+        "tag": "BEAM-014"
+      },
+      {
+        "component_guid": "0BfXuJg41GsQS7iIhT6mKg",
+        "count": 1,
+        "id": "BOM-BEAM-015",
+        "length_m": 4.0,
+        "specification": "Grade A",
+        "tag": "BEAM-015"
+      },
+      {
+        "component_guid": "2yvAJlUCTG0OVN4kRkW_5g",
+        "count": 1,
+        "id": "BOM-BEAM-016",
+        "length_m": 4.0,
+        "specification": "Grade A",
+        "tag": "BEAM-016"
+      },
+      {
+        "component_guid": "0pwLjVdlfI4eWnZIfNZrYl",
+        "count": 1,
+        "id": "BOM-COL-001",
+        "length_m": 3.0,
+        "specification": "Grade A",
+        "tag": "COL-001"
+      },
+      {
+        "component_guid": "3qr_yVNzPL5gzkbXdC6QZv",
+        "count": 1,
+        "id": "BOM-COL-002",
+        "length_m": 3.0,
+        "specification": "Grade A",
+        "tag": "COL-002"
+      },
+      {
+        "component_guid": "1gTAtwMR5RbOFq2nOEKaaW",
+        "count": 1,
+        "id": "BOM-COL-003",
+        "length_m": 3.0,
+        "specification": "Grade A",
+        "tag": "COL-003"
+      },
+      {
+        "component_guid": "2nQ6tKAB1TIRgUOgTU$a3h",
+        "count": 1,
+        "id": "BOM-COL-004",
+        "length_m": 3.0,
+        "specification": "Grade A",
+        "tag": "COL-004"
+      },
+      {
+        "component_guid": "0R9m_lE3zUORjLlseDJztn",
+        "count": 1,
+        "id": "BOM-COL-005",
+        "length_m": 3.0,
+        "specification": "Grade A",
+        "tag": "COL-005"
+      },
+      {
+        "component_guid": "1OE5golTXOKQB8a7RnjrSv",
+        "count": 1,
+        "id": "BOM-COL-006",
+        "length_m": 3.0,
+        "specification": "Grade A",
+        "tag": "COL-006"
+      }
+    ],
+    "revised": [
+      {
+        "baseline_line_id": "BOM-BEAM-007",
+        "component_guid": "1GIKBmOjDOVBcT1bXi5WAM",
+        "count": 1,
+        "id": "BOM-BEAM-007",
+        "length_m": 3.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "1GIKBmOjDOVBcT1bXi5WAM",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 135
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-007"
+      },
+      {
+        "baseline_line_id": "BOM-BEAM-008",
+        "component_guid": "13ewKmnJrLLxTR2EEx4Z3l",
+        "count": 1,
+        "id": "BOM-BEAM-008",
+        "length_m": 3.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "13ewKmnJrLLxTR2EEx4Z3l",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 154
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-008"
+      },
+      {
+        "baseline_line_id": "BOM-BEAM-009",
+        "component_guid": "0JgVtPJIDUOOSiTyPOKl$P",
+        "count": 1,
+        "id": "BOM-BEAM-009",
+        "length_m": 3.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "0JgVtPJIDUOOSiTyPOKl$P",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 173
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-009"
+      },
+      {
+        "baseline_line_id": "BOM-BEAM-010",
+        "component_guid": "1CYdsSf_nNCPuGtu8DtQNo",
+        "count": 1,
+        "id": "BOM-BEAM-010",
+        "length_m": 3.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "1CYdsSf_nNCPuGtu8DtQNo",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 192
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-010"
+      },
+      {
+        "baseline_line_id": "BOM-BEAM-011",
+        "component_guid": "3UdjncJP5TQhp$iQz7r$IA",
+        "count": 1,
+        "id": "BOM-BEAM-011",
+        "length_m": 4.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "3UdjncJP5TQhp$iQz7r$IA",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 211
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-011"
+      },
+      {
+        "baseline_line_id": "BOM-BEAM-012",
+        "component_guid": "2p3XBvR59QAgMEHwd$yJti",
+        "count": 1,
+        "id": "BOM-BEAM-012",
+        "length_m": 4.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "2p3XBvR59QAgMEHwd$yJti",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 230
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-012"
+      },
+      {
+        "baseline_line_id": "BOM-BEAM-013",
+        "component_guid": "2DG8SKrCLT1f2T1mWlHW1E",
+        "count": 1,
+        "id": "BOM-BEAM-013",
+        "length_m": 4.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "2DG8SKrCLT1f2T1mWlHW1E",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 249
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-013"
+      },
+      {
+        "baseline_line_id": "BOM-BEAM-014",
+        "component_guid": "1x842QenjT7xv_8_Lg0OlW",
+        "count": 1,
+        "id": "BOM-BEAM-014",
+        "length_m": 4.5,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "1x842QenjT7xv_8_Lg0OlW",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 268
+        },
+        "specification": "Grade B",
+        "tag": "BEAM-014"
+      },
+      {
+        "baseline_line_id": "BOM-BEAM-015",
+        "component_guid": "0BfXuJg41GsQS7iIhT6mKg",
+        "count": 1,
+        "id": "BOM-BEAM-015",
+        "length_m": 4.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "0BfXuJg41GsQS7iIhT6mKg",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 287
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-015"
+      },
+      {
+        "baseline_line_id": "BOM-BEAM-016",
+        "component_guid": "2yvAJlUCTG0OVN4kRkW_5g",
+        "count": 1,
+        "id": "BOM-BEAM-016",
+        "length_m": 4.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "2yvAJlUCTG0OVN4kRkW_5g",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 306
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-016"
+      },
+      {
+        "baseline_line_id": "BOM-COL-001",
+        "component_guid": "0pwLjVdlfI4eWnZIfNZrYl",
+        "count": 1,
+        "id": "BOM-COL-001",
+        "length_m": 3.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcColumn",
+          "file": "bonsai-revised.ifc",
+          "global_id": "0pwLjVdlfI4eWnZIfNZrYl",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 19
+        },
+        "specification": "Grade A",
+        "tag": "COL-001"
+      },
+      {
+        "baseline_line_id": "BOM-COL-002",
+        "component_guid": "3qr_yVNzPL5gzkbXdC6QZv",
+        "count": 1,
+        "id": "BOM-COL-002",
+        "length_m": 3.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcColumn",
+          "file": "bonsai-revised.ifc",
+          "global_id": "3qr_yVNzPL5gzkbXdC6QZv",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 40
+        },
+        "specification": "Grade A",
+        "tag": "COL-002"
+      },
+      {
+        "baseline_line_id": "BOM-COL-003",
+        "component_guid": "1gTAtwMR5RbOFq2nOEKaaW",
+        "count": 1,
+        "id": "BOM-COL-003",
+        "length_m": 3.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcColumn",
+          "file": "bonsai-revised.ifc",
+          "global_id": "1gTAtwMR5RbOFq2nOEKaaW",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 59
+        },
+        "specification": "Grade A",
+        "tag": "COL-003"
+      },
+      {
+        "baseline_line_id": "BOM-COL-004",
+        "component_guid": "2nQ6tKAB1TIRgUOgTU$a3h",
+        "count": 1,
+        "id": "BOM-COL-004",
+        "length_m": 3.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcColumn",
+          "file": "bonsai-revised.ifc",
+          "global_id": "2nQ6tKAB1TIRgUOgTU$a3h",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 78
+        },
+        "specification": "Grade A",
+        "tag": "COL-004"
+      },
+      {
+        "baseline_line_id": "BOM-COL-005",
+        "component_guid": "0R9m_lE3zUORjLlseDJztn",
+        "count": 1,
+        "id": "BOM-COL-005",
+        "length_m": 3.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcColumn",
+          "file": "bonsai-revised.ifc",
+          "global_id": "0R9m_lE3zUORjLlseDJztn",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 97
+        },
+        "specification": "Grade A",
+        "tag": "COL-005"
+      },
+      {
+        "baseline_line_id": "BOM-COL-006",
+        "component_guid": "1OE5golTXOKQB8a7RnjrSv",
+        "count": 1,
+        "id": "BOM-COL-006",
+        "length_m": 3.0,
+        "review_state": "evaluated",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "source": {
+          "entity": "IfcColumn",
+          "file": "bonsai-revised.ifc",
+          "global_id": "1OE5golTXOKQB8a7RnjrSv",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 116
+        },
+        "specification": "Grade A",
+        "tag": "COL-006"
+      }
+    ]
+  },
+  "diagnostics": [],
+  "engine_version": "pilot-1.0",
+  "entries": [
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 152,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 153,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#142.Depth / #136.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "1GIKBmOjDOVBcT1bXi5WAM",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:135",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-007",
+        "placement": [
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "1GIKBmOjDOVBcT1bXi5WAM",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 135
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-007",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 152,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 153,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#142.Depth / #136.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "1GIKBmOjDOVBcT1bXi5WAM",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:135",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-007",
+        "placement": [
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "baseline.ifc",
+          "global_id": "1GIKBmOjDOVBcT1bXi5WAM",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 135
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-007",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-BEAM-007"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-001",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 171,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 172,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#161.Depth / #155.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "13ewKmnJrLLxTR2EEx4Z3l",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:154",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-008",
+        "placement": [
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "13ewKmnJrLLxTR2EEx4Z3l",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 154
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-008",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 171,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 172,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#161.Depth / #155.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "13ewKmnJrLLxTR2EEx4Z3l",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:154",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-008",
+        "placement": [
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "baseline.ifc",
+          "global_id": "13ewKmnJrLLxTR2EEx4Z3l",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 154
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-008",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-BEAM-008"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-002",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 190,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 191,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#180.Depth / #174.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "0JgVtPJIDUOOSiTyPOKl$P",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:173",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-009",
+        "placement": [
+          [
+            0.0,
+            1.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "0JgVtPJIDUOOSiTyPOKl$P",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 173
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-009",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 190,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 191,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#180.Depth / #174.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "0JgVtPJIDUOOSiTyPOKl$P",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:173",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-009",
+        "placement": [
+          [
+            0.0,
+            1.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "baseline.ifc",
+          "global_id": "0JgVtPJIDUOOSiTyPOKl$P",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 173
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-009",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-BEAM-009"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-003",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 209,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 210,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#199.Depth / #193.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "1CYdsSf_nNCPuGtu8DtQNo",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:192",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-010",
+        "placement": [
+          [
+            0.0,
+            1.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "1CYdsSf_nNCPuGtu8DtQNo",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 192
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-010",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 209,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 210,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#199.Depth / #193.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "1CYdsSf_nNCPuGtu8DtQNo",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:192",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-010",
+        "placement": [
+          [
+            0.0,
+            1.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "baseline.ifc",
+          "global_id": "1CYdsSf_nNCPuGtu8DtQNo",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 192
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-010",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-BEAM-010"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-004",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 228,
+            "unit": "length_m",
+            "value": 4.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 229,
+            "unit": "volume_m3",
+            "value": 0.08
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 4.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#218.Depth / #212.XDim,YDim",
+          "volume_m3": 0.08,
+          "width_m": 0.1
+        },
+        "guid": "3UdjncJP5TQhp$iQz7r$IA",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:211",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-011",
+        "placement": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "3UdjncJP5TQhp$iQz7r$IA",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 211
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-011",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 228,
+            "unit": "length_m",
+            "value": 4.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 229,
+            "unit": "volume_m3",
+            "value": 0.08
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 4.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#218.Depth / #212.XDim,YDim",
+          "volume_m3": 0.08,
+          "width_m": 0.1
+        },
+        "guid": "3UdjncJP5TQhp$iQz7r$IA",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:211",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-011",
+        "placement": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "baseline.ifc",
+          "global_id": "3UdjncJP5TQhp$iQz7r$IA",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 211
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-011",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-BEAM-011"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-005",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 247,
+            "unit": "length_m",
+            "value": 4.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 248,
+            "unit": "volume_m3",
+            "value": 0.08
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 4.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#237.Depth / #231.XDim,YDim",
+          "volume_m3": 0.08,
+          "width_m": 0.1
+        },
+        "guid": "2p3XBvR59QAgMEHwd$yJti",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:230",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-012",
+        "placement": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            3.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "2p3XBvR59QAgMEHwd$yJti",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 230
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-012",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 247,
+            "unit": "length_m",
+            "value": 4.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 248,
+            "unit": "volume_m3",
+            "value": 0.08
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 4.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#237.Depth / #231.XDim,YDim",
+          "volume_m3": 0.08,
+          "width_m": 0.1
+        },
+        "guid": "2p3XBvR59QAgMEHwd$yJti",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:230",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-012",
+        "placement": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            3.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "baseline.ifc",
+          "global_id": "2p3XBvR59QAgMEHwd$yJti",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 230
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-012",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-BEAM-012"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-006",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 266,
+            "unit": "length_m",
+            "value": 4.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 267,
+            "unit": "volume_m3",
+            "value": 0.08
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 4.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#256.Depth / #250.XDim,YDim",
+          "volume_m3": 0.08,
+          "width_m": 0.1
+        },
+        "guid": "2DG8SKrCLT1f2T1mWlHW1E",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:249",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-013",
+        "placement": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            6.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "2DG8SKrCLT1f2T1mWlHW1E",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 249
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-013",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 266,
+            "unit": "length_m",
+            "value": 4.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 267,
+            "unit": "volume_m3",
+            "value": 0.08
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 4.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#256.Depth / #250.XDim,YDim",
+          "volume_m3": 0.08,
+          "width_m": 0.1
+        },
+        "guid": "2DG8SKrCLT1f2T1mWlHW1E",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:249",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-013",
+        "placement": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            6.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "baseline.ifc",
+          "global_id": "2DG8SKrCLT1f2T1mWlHW1E",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 249
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-013",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-BEAM-013"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-007",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {},
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 4.5,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#275.Depth / #269.XDim,YDim",
+          "volume_m3": 0.09,
+          "width_m": 0.1
+        },
+        "guid": "1x842QenjT7xv_8_Lg0OlW",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:268",
+        "material_source": [
+          {
+            "name": "Grade B",
+            "step_id": 325
+          }
+        ],
+        "name": "BEAM-014",
+        "placement": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "1x842QenjT7xv_8_Lg0OlW",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 268
+        },
+        "specification": "Grade B",
+        "tag": "BEAM-014",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 285,
+            "unit": "length_m",
+            "value": 4.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 286,
+            "unit": "volume_m3",
+            "value": 0.08
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 4.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#275.Depth / #269.XDim,YDim",
+          "volume_m3": 0.08,
+          "width_m": 0.1
+        },
+        "guid": "1x842QenjT7xv_8_Lg0OlW",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:268",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-014",
+        "placement": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "baseline.ifc",
+          "global_id": "1x842QenjT7xv_8_Lg0OlW",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 268
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-014",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-BEAM-014"
+      ],
+      "changes": [
+        {
+          "after": "Grade B",
+          "before": "Grade A",
+          "field": "specification",
+          "unit": null
+        },
+        {
+          "after": 4.5,
+          "before": 4.0,
+          "delta": 0.5,
+          "field": "length_m",
+          "unit": "m"
+        },
+        {
+          "after": 0.09,
+          "before": 0.08,
+          "delta": 0.01,
+          "field": "volume_m3",
+          "unit": "m\u00b3"
+        }
+      ],
+      "confidence": "exact",
+      "id": "change-008",
+      "issues": [],
+      "kind": "modified",
+      "match_method": "global_id",
+      "review_state": "review_required",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 304,
+            "unit": "length_m",
+            "value": 4.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 305,
+            "unit": "volume_m3",
+            "value": 0.08
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 4.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#294.Depth / #288.XDim,YDim",
+          "volume_m3": 0.08,
+          "width_m": 0.1
+        },
+        "guid": "0BfXuJg41GsQS7iIhT6mKg",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:287",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-015",
+        "placement": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            3.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "0BfXuJg41GsQS7iIhT6mKg",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 287
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-015",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 304,
+            "unit": "length_m",
+            "value": 4.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 305,
+            "unit": "volume_m3",
+            "value": 0.08
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 4.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#294.Depth / #288.XDim,YDim",
+          "volume_m3": 0.08,
+          "width_m": 0.1
+        },
+        "guid": "0BfXuJg41GsQS7iIhT6mKg",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:287",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-015",
+        "placement": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            3.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "baseline.ifc",
+          "global_id": "0BfXuJg41GsQS7iIhT6mKg",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 287
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-015",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-BEAM-015"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-009",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 323,
+            "unit": "length_m",
+            "value": 4.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 324,
+            "unit": "volume_m3",
+            "value": 0.08
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 4.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#313.Depth / #307.XDim,YDim",
+          "volume_m3": 0.08,
+          "width_m": 0.1
+        },
+        "guid": "2yvAJlUCTG0OVN4kRkW_5g",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:306",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-016",
+        "placement": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            6.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "bonsai-revised.ifc",
+          "global_id": "2yvAJlUCTG0OVN4kRkW_5g",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 306
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-016",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_BeamBaseQuantities.Length": {
+            "step_id": 323,
+            "unit": "length_m",
+            "value": 4.0
+          },
+          "Qto_BeamBaseQuantities.NetVolume": {
+            "step_id": 324,
+            "unit": "volume_m3",
+            "value": 0.08
+          }
+        },
+        "class": "IfcBeam",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 4.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#313.Depth / #307.XDim,YDim",
+          "volume_m3": 0.08,
+          "width_m": 0.1
+        },
+        "guid": "2yvAJlUCTG0OVN4kRkW_5g",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:306",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "BEAM-016",
+        "placement": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            6.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcBeam",
+          "file": "baseline.ifc",
+          "global_id": "2yvAJlUCTG0OVN4kRkW_5g",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 306
+        },
+        "specification": "Grade A",
+        "tag": "BEAM-016",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-BEAM-016"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-010",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_ColumnBaseQuantities.Length": {
+            "step_id": 38,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_ColumnBaseQuantities.NetVolume": {
+            "step_id": 39,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcColumn",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#27.Depth / #21.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "0pwLjVdlfI4eWnZIfNZrYl",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:19",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "COL-001",
+        "placement": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcColumn",
+          "file": "bonsai-revised.ifc",
+          "global_id": "0pwLjVdlfI4eWnZIfNZrYl",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 19
+        },
+        "specification": "Grade A",
+        "tag": "COL-001",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_ColumnBaseQuantities.Length": {
+            "step_id": 38,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_ColumnBaseQuantities.NetVolume": {
+            "step_id": 39,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcColumn",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#27.Depth / #21.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "0pwLjVdlfI4eWnZIfNZrYl",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:19",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "COL-001",
+        "placement": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcColumn",
+          "file": "baseline.ifc",
+          "global_id": "0pwLjVdlfI4eWnZIfNZrYl",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 19
+        },
+        "specification": "Grade A",
+        "tag": "COL-001",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-COL-001"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-011",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_ColumnBaseQuantities.Length": {
+            "step_id": 57,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_ColumnBaseQuantities.NetVolume": {
+            "step_id": 58,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcColumn",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#47.Depth / #41.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "3qr_yVNzPL5gzkbXdC6QZv",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:40",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "COL-002",
+        "placement": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcColumn",
+          "file": "bonsai-revised.ifc",
+          "global_id": "3qr_yVNzPL5gzkbXdC6QZv",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 40
+        },
+        "specification": "Grade A",
+        "tag": "COL-002",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_ColumnBaseQuantities.Length": {
+            "step_id": 57,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_ColumnBaseQuantities.NetVolume": {
+            "step_id": 58,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcColumn",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#47.Depth / #41.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "3qr_yVNzPL5gzkbXdC6QZv",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:40",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "COL-002",
+        "placement": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcColumn",
+          "file": "baseline.ifc",
+          "global_id": "3qr_yVNzPL5gzkbXdC6QZv",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 40
+        },
+        "specification": "Grade A",
+        "tag": "COL-002",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-COL-002"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-012",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_ColumnBaseQuantities.Length": {
+            "step_id": 76,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_ColumnBaseQuantities.NetVolume": {
+            "step_id": 77,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcColumn",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#66.Depth / #60.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "1gTAtwMR5RbOFq2nOEKaaW",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:59",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "COL-003",
+        "placement": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            6.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcColumn",
+          "file": "bonsai-revised.ifc",
+          "global_id": "1gTAtwMR5RbOFq2nOEKaaW",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 59
+        },
+        "specification": "Grade A",
+        "tag": "COL-003",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_ColumnBaseQuantities.Length": {
+            "step_id": 76,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_ColumnBaseQuantities.NetVolume": {
+            "step_id": 77,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcColumn",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#66.Depth / #60.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "1gTAtwMR5RbOFq2nOEKaaW",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:59",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "COL-003",
+        "placement": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            6.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcColumn",
+          "file": "baseline.ifc",
+          "global_id": "1gTAtwMR5RbOFq2nOEKaaW",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 59
+        },
+        "specification": "Grade A",
+        "tag": "COL-003",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-COL-003"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-013",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_ColumnBaseQuantities.Length": {
+            "step_id": 95,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_ColumnBaseQuantities.NetVolume": {
+            "step_id": 96,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcColumn",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#85.Depth / #79.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "2nQ6tKAB1TIRgUOgTU$a3h",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:78",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "COL-004",
+        "placement": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcColumn",
+          "file": "bonsai-revised.ifc",
+          "global_id": "2nQ6tKAB1TIRgUOgTU$a3h",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 78
+        },
+        "specification": "Grade A",
+        "tag": "COL-004",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_ColumnBaseQuantities.Length": {
+            "step_id": 95,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_ColumnBaseQuantities.NetVolume": {
+            "step_id": 96,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcColumn",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#85.Depth / #79.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "2nQ6tKAB1TIRgUOgTU$a3h",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:78",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "COL-004",
+        "placement": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcColumn",
+          "file": "baseline.ifc",
+          "global_id": "2nQ6tKAB1TIRgUOgTU$a3h",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 78
+        },
+        "specification": "Grade A",
+        "tag": "COL-004",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-COL-004"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-014",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_ColumnBaseQuantities.Length": {
+            "step_id": 114,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_ColumnBaseQuantities.NetVolume": {
+            "step_id": 115,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcColumn",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#104.Depth / #98.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "0R9m_lE3zUORjLlseDJztn",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:97",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "COL-005",
+        "placement": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcColumn",
+          "file": "bonsai-revised.ifc",
+          "global_id": "0R9m_lE3zUORjLlseDJztn",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 97
+        },
+        "specification": "Grade A",
+        "tag": "COL-005",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_ColumnBaseQuantities.Length": {
+            "step_id": 114,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_ColumnBaseQuantities.NetVolume": {
+            "step_id": 115,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcColumn",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#104.Depth / #98.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "0R9m_lE3zUORjLlseDJztn",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:97",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "COL-005",
+        "placement": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcColumn",
+          "file": "baseline.ifc",
+          "global_id": "0R9m_lE3zUORjLlseDJztn",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 97
+        },
+        "specification": "Grade A",
+        "tag": "COL-005",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-COL-005"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-015",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    },
+    {
+      "after": {
+        "authored_quantities": {
+          "Qto_ColumnBaseQuantities.Length": {
+            "step_id": 133,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_ColumnBaseQuantities.NetVolume": {
+            "step_id": 134,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcColumn",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#123.Depth / #117.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "1OE5golTXOKQB8a7RnjrSv",
+        "issues": [],
+        "key": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b:116",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "COL-006",
+        "placement": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            6.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcColumn",
+          "file": "bonsai-revised.ifc",
+          "global_id": "1OE5golTXOKQB8a7RnjrSv",
+          "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+          "step_id": 116
+        },
+        "specification": "Grade A",
+        "tag": "COL-006",
+        "valid_id": true
+      },
+      "before": {
+        "authored_quantities": {
+          "Qto_ColumnBaseQuantities.Length": {
+            "step_id": 133,
+            "unit": "length_m",
+            "value": 3.0
+          },
+          "Qto_ColumnBaseQuantities.NetVolume": {
+            "step_id": 134,
+            "unit": "volume_m3",
+            "value": 0.06
+          }
+        },
+        "class": "IfcColumn",
+        "container": "Ground",
+        "container_guid": "1KbckQcazRnhB2cw8gLoAk",
+        "geometry": {
+          "height_m": 0.2,
+          "length_m": 3.0,
+          "profile_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "solid_position": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_path": "#123.Depth / #117.XDim,YDim",
+          "volume_m3": 0.06,
+          "width_m": 0.1
+        },
+        "guid": "1OE5golTXOKQB8a7RnjrSv",
+        "issues": [],
+        "key": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e:116",
+        "material_source": [
+          {
+            "name": "Grade A",
+            "step_id": 18
+          }
+        ],
+        "name": "COL-006",
+        "placement": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            6.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "source": {
+          "entity": "IfcColumn",
+          "file": "baseline.ifc",
+          "global_id": "1OE5golTXOKQB8a7RnjrSv",
+          "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+          "step_id": 116
+        },
+        "specification": "Grade A",
+        "tag": "COL-006",
+        "valid_id": true
+      },
+      "bom_line_ids": [
+        "BOM-COL-006"
+      ],
+      "changes": [],
+      "confidence": "exact",
+      "id": "change-016",
+      "issues": [],
+      "kind": "unchanged",
+      "match_method": "global_id",
+      "review_state": "no_discrepancy",
+      "uncertain": false
+    }
+  ],
+  "id": "a474e5027270d6a4a172b7166f42e7df01ce4293dbc5294e42e6509dbf0a573a",
+  "impacts": [
+    {
+      "after_source": {
+        "entity": "IfcBeam",
+        "file": "bonsai-revised.ifc",
+        "global_id": "1x842QenjT7xv_8_Lg0OlW",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "step_id": 268
+      },
+      "before_source": {
+        "entity": "IfcBeam",
+        "file": "baseline.ifc",
+        "global_id": "1x842QenjT7xv_8_Lg0OlW",
+        "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+        "step_id": 268
+      },
+      "bom_line_id": "BOM-BEAM-014",
+      "change_id": "change-008",
+      "component_guid": "1x842QenjT7xv_8_Lg0OlW",
+      "id": "impact-001",
+      "message": "Ordered specification differs from the revised member",
+      "ordered": {
+        "bom_line_id": "BOM-BEAM-014",
+        "count": 1,
+        "id": "PO-1042/1",
+        "length_m": 4.0,
+        "po": "PO-1042",
+        "specification": "Grade A",
+        "status": "ordered"
+      },
+      "po_line_id": "PO-1042/1",
+      "rule": "PO_SPECIFICATION_MISMATCH",
+      "rule_version": "pilot-1.0",
+      "state": "review_required",
+      "tag": "BEAM-014"
+    },
+    {
+      "after_source": {
+        "entity": "IfcBeam",
+        "file": "bonsai-revised.ifc",
+        "global_id": "1x842QenjT7xv_8_Lg0OlW",
+        "revision_id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+        "step_id": 268
+      },
+      "before_source": {
+        "entity": "IfcBeam",
+        "file": "baseline.ifc",
+        "global_id": "1x842QenjT7xv_8_Lg0OlW",
+        "revision_id": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+        "step_id": 268
+      },
+      "bom_line_id": "BOM-BEAM-014",
+      "change_id": "change-008",
+      "component_guid": "1x842QenjT7xv_8_Lg0OlW",
+      "id": "impact-002",
+      "message": "Ordered cut length differs from the revised member",
+      "ordered": {
+        "bom_line_id": "BOM-BEAM-014",
+        "count": 1,
+        "id": "PO-1042/1",
+        "length_m": 4.0,
+        "po": "PO-1042",
+        "specification": "Grade A",
+        "status": "ordered"
+      },
+      "po_line_id": "PO-1042/1",
+      "rule": "PO_CUT_LENGTH_MISMATCH",
+      "rule_version": "pilot-1.0",
+      "state": "review_required",
+      "tag": "BEAM-014"
+    }
+  ],
+  "procurement_sha256": "c81b01c91dc2e4070c523302e6ddf3e62bb54173483bfbfb4459a71ea172a321",
+  "purchase_orders": [
+    {
+      "bom_line_id": "BOM-BEAM-014",
+      "count": 1,
+      "id": "PO-1042/1",
+      "length_m": 4.0,
+      "po": "PO-1042",
+      "specification": "Grade A",
+      "status": "ordered"
+    }
+  ],
+  "review_state": "review_required",
+  "revised": {
+    "extractor_version": "pilot-1.0",
+    "filename": "bonsai-revised.ifc",
+    "id": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+    "length_unit_to_m": 1.0,
+    "project_guid": "0MPjsmZ7DPi8jscd2OSpw$",
+    "schema": "IFC4"
+  },
+  "scope": "IFC4 rectangular beam/column extrusions; illustrative procurement rules; no engineering approval",
+  "summary": {
+    "added": 0,
+    "affected_bom_lines": 1,
+    "flagged_po_lines": 1,
+    "impact_reasons": 2,
+    "modified": 1,
+    "removed": 0,
+    "uncertain_components": 0,
+    "unchanged": 15,
+    "unresolved": 0
+  },
+  "synthetic_procurement": true,
+  "tolerances": {
+    "length_m": 0.0001,
+    "volume_m3": 1e-06
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "revised_sha256": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+  "source_download_matches": true,
+  "summary": {
+    "added": 0,
+    "affected_bom_lines": 1,
+    "flagged_po_lines": 1,
+    "impact_reasons": 2,
+    "modified": 1,
+    "removed": 0,
+    "uncertain_components": 0,
+    "unchanged": 15,
+    "unresolved": 0
+  },
+  "page_errors": []
+}

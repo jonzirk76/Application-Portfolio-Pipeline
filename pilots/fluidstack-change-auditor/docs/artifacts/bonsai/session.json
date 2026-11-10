@@ -1,0 +1,69 @@
+{
+  "mode": "agent-assisted Bonsai GUI; native operators driven by Python",
+  "blender": "5.2.2 LTS",
+  "ifcopenshell": "0.9.1a261110",
+  "baseline_sha256": "80b385fa34e17479d7ea9066aac870278d09a0deebc62e519e691ab6e56b4d6e",
+  "steps": [
+    {
+      "label": "Baseline IFC loaded: 4.000 m / Grade A",
+      "elapsed_seconds": 10.25,
+      "global_id": "1x842QenjT7xv_8_Lg0OlW",
+      "depth_m": 4.0,
+      "material": "Grade A",
+      "quantities": {
+        "Qto_BeamBaseQuantities": {
+          "Length": 4.0,
+          "NetVolume": 0.08,
+          "id": 283
+        }
+      }
+    },
+    {
+      "label": "Bonsai extrusion parameter changed: 4.000 to 4.500 m",
+      "elapsed_seconds": 17.021,
+      "global_id": "1x842QenjT7xv_8_Lg0OlW",
+      "depth_m": 4.5,
+      "material": "Grade A",
+      "quantities": {
+        "Qto_BeamBaseQuantities": {
+          "Length": 4.0,
+          "NetVolume": 0.08,
+          "id": 283
+        }
+      }
+    },
+    {
+      "label": "Grade B assigned to this beam; stale quantities saved as a control",
+      "elapsed_seconds": 24.048,
+      "global_id": "1x842QenjT7xv_8_Lg0OlW",
+      "depth_m": 4.5,
+      "material": "Grade B",
+      "quantities": {
+        "Qto_BeamBaseQuantities": {
+          "Length": 4.0,
+          "NetVolume": 0.08,
+          "id": 283
+        }
+      }
+    },
+    {
+      "label": "Stale authored quantities removed from this occurrence",
+      "elapsed_seconds": 31.016,
+      "global_id": "1x842QenjT7xv_8_Lg0OlW",
+      "depth_m": 4.5,
+      "material": "Grade B",
+      "quantities": {}
+    },
+    {
+      "label": "New IFC saved by Bonsai; original GlobalId preserved",
+      "elapsed_seconds": 38.03,
+      "global_id": "1x842QenjT7xv_8_Lg0OlW",
+      "depth_m": 4.5,
+      "material": "Grade B",
+      "quantities": {}
+    }
+  ],
+  "complete": true,
+  "revised_sha256": "443d098a446f9afcfe16d7aab26f21d7ac5fe44863584046a58ecbb77dac401b",
+  "ifc_originating_system": "Bonsai 0.9.1-alpha261110-79759e4"
+}
