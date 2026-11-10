@@ -1,0 +1,27 @@
+{
+  "name": "web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predev": "node scripts/vendor.mjs",
+    "prebuild": "node scripts/vendor.mjs",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@types/three": "0.187.0",
+    "typescript": "~7.0.2",
+    "vite": "7.3.8"
+  },
+  "dependencies": {
+    "@thatopen/components": "3.6.0",
+    "@thatopen/components-front": "3.6.1",
+    "@thatopen/fragments": "3.6.1",
+    "three": "0.187.0",
+    "web-ifc": "0.0.77"
+  }
+}

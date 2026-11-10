@@ -1,0 +1,51 @@
+import { test, expect } from '@playwright/test';
+import path from 'node:path';
+
+test('real IFC viewer, lineage, selection, revision switching and export', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', error => errors.push(error.message));
+  await page.goto('/');
+  await expect(page.locator('#detail h3')).toHaveText('BEAM-014');
+  await expect(page.locator('#metrics .metric').nth(0).locator('strong')).toHaveText('1');
+  await expect(page.locator('#metrics .metric').nth(2).locator('strong')).toHaveText('1');
+  await expect(page.locator('#detail')).toContainText('0.500 m');
+  await expect(page.locator('#impacts')).toContainText('PO-1042/1');
+  await expect(page.locator('#viewer-status')).toContainText('Revised IFC loaded', { timeout: 60000 });
+  await expect(page.locator('#model-container')).toHaveAttribute('data-selected-guid', /.+/);
+  await page.screenshot({ path: 'test-results/audit-desktop.png', fullPage: true });
+  const revisedId = await page.locator('#model-container').getAttribute('data-revision');
+  await page.getByRole('button', { name: 'A · Baseline', exact: true }).click();
+  await expect(page.locator('#viewer-status')).toContainText('Baseline IFC loaded', { timeout: 60000 });
+  expect(await page.locator('#model-container').getAttribute('data-revision')).not.toBe(revisedId);
+  await page.getByLabel('Include unchanged').check();
+  await page.getByRole('button', { name: 'COL-001', exact: true }).click();
+  await expect(page.locator('#detail h3')).toHaveText('COL-001');
+  await expect(page.locator('#detail')).toContainText('no discrepancy');
+  const downloadPromise = page.waitForEvent('download');
+  await page.locator('#export').click();
+  const download = await downloadPromise;
+  expect(download.suggestedFilename()).toBe('engineering-change-audit.json');
+  await download.saveAs('test-results/exported-audit.json');
+  await page.getByRole('button', { name: 'Evidence register' }).click();
+  await expect(page.locator('#evidence-panel')).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Download original IFC' })).toHaveCount(2);
+  expect(errors).toEqual([]);
+});
+
+test('unchanged control, IFC upload, validation and mobile layout', async ({ page }) => {
+  await page.goto('/');
+  await expect(page.locator('#detail h3')).toHaveText('BEAM-014');
+  await page.getByRole('button', { name: 'Run unchanged control' }).click();
+  await expect(page.locator('#metrics .metric').nth(0).locator('strong')).toHaveText('0');
+  await expect(page.locator('#impacts')).toContainText('No procurement discrepancies detected');
+  await page.getByLabel('Import revised IFC').setInputFiles(path.resolve('../fixtures/revised.ifc'));
+  await expect(page.locator('#message')).toContainText('imported');
+  await page.getByRole('button', { name: 'Run comparison' }).click();
+  await expect(page.locator('#metrics .metric').nth(0).locator('strong')).toHaveText('1');
+  await page.getByLabel('Import revised IFC').setInputFiles({ name: 'bad.ifc', mimeType: 'text/plain', buffer: Buffer.from('not IFC') });
+  await expect(page.locator('#message')).toContainText('Import failed');
+  await page.setViewportSize({ width: 390, height: 844 });
+  await expect(page.getByRole('heading', { name: 'Engineering change audit' })).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  await page.screenshot({ path: 'test-results/audit-mobile.png', fullPage: true });
+});
