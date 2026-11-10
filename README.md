@@ -1,6 +1,6 @@
 # Application Portfolio Pipeline — pilot planning pack
 
-Prepared November 9, 2026. Status: **working local pilot; manual Bonsai authoring gate outstanding**.
+Updated November 10, 2026. Status: **Bonsai authoring round trip verified with agent assistance; owner review pending**.
 
 Pilot: **OpenBIM Engineering Change Auditor**, an independent portfolio project targeted at Fluidstack's Software Engineer, Manufacturing & Supply Chain role.
 
@@ -10,6 +10,8 @@ Pilot: **OpenBIM Engineering Change Auditor**, an independent portfolio project 
 - [Commit policy](docs/commit-policy.md): concise subsystem subjects and dependency-ordered changes for agent navigation.
 
 The [implemented pilot](pilots/fluidstack-change-auditor/README.md) follows one beam revision from IFC geometry through synthetic BOM and procurement evidence. See its [validation record](pilots/fluidstack-change-auditor/docs/validation.md) for measured results and outstanding scope.
+
+The [87-second Bonsai walkthrough](pilots/fluidstack-change-auditor/docs/artifacts/bonsai/bonsai-roundtrip.webm) shows actual authoring and the audit of the saved IFC. See the [authoring evidence and reproduction steps](pilots/fluidstack-change-auditor/docs/bonsai-validation.md).
 
 ```bash
 cd pilots/fluidstack-change-auditor

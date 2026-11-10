@@ -1,14 +1,16 @@
 # Validation record
 
-November 9, 2026. Ubuntu 22.04 x86_64 / Intel i7-3770; Python 3.12.8; Node 22.23.4.
+Updated November 10, 2026. Ubuntu 22.04 x86_64 / Intel i7-3770; Python 3.12.8; Node 22.23.4.
 
 ## Verified
 
-- **26 pytest cases:** actual geometry, exact numeric deltas, unchanged and reordered controls, mm/m equivalence, placement changes, inherited materials, regenerated/missing/duplicate IDs, add/remove cases, missing specs, unsupported shapes, stale quantities, tolerance boundaries, deterministic fixture generation, BOM lineage/orphans, API uploads/errors, immutable source retrieval, and export.
+- **29 pytest cases:** the original 26 engine/API cases plus three regressions using actual Bonsai exports: supported geometry/identity, stale-quantity uncertainty, and evidence integrity.
 - Ruff passes. Vite 7.3.8 production build passes.
 - **Two Chromium end-to-end tests:** actual IFC rendering, selection, A/B switching, evidence/downloads, unchanged control, upload validation, and a 390-pixel mobile layout without page overflow. Software WebGL was used in headless Chromium.
 - Fresh checkout at `/tmp/openbim-repro-rm617_l3/pilot`: `make test demo` passed the tests, restored both lockfiles, regenerated fixtures, produced the expected report, built successfully, and launched the application on port 8000.
 - The scripted browser walkthrough was recorded and inspected with ffprobe: 90.52 seconds. It explicitly labels the revisions as pre-generated fixtures.
+- **Bonsai authoring round trip:** native operations in Blender 5.2.2 / Bonsai 0.9.1-alpha261110 produced a new supported IFC revision. The actual export passes the expected audit; an independent geometry-kernel check confirms 0.090 m³. The intermediate stale-quantity export produces uncertainty instead of definitive PO flags.
+- The Bonsai export renders in the browser, switches A/B, and downloads byte-for-byte. Its browser JSON equals the CLI report. The edited authoring → browser recording is **87.134 seconds**. See the [full evidence and method](bonsai-validation.md); authoring was agent-assisted.
 - Expected fixture output: 16 members, 1 modified, 15 unchanged, 1 affected BOM line, 1 flagged PO line, 2 reasons, no uncertain components. Length +0.500 m; volume +0.010 m³; piece count unchanged.
 - One local headless fixture read/compare run took approximately **0.044 seconds**, excluding Python startup. This is not a scalability benchmark.
 
@@ -23,7 +25,9 @@ November 9, 2026. Ubuntu 22.04 x86_64 / Intel i7-3770; Python 3.12.8; Node 22.23
 
 ## Outstanding and limits
 
-**Manual Bonsai GUI edit/save round trip remains outstanding.** Blender is installed; a Bonsai extension was not located in the checked configuration directories. The recording uses explicitly labeled pre-generated revisions, so it does not satisfy the original live-authoring recording gate.
+**Independent owner review remains pending.** The technical Bonsai edit/save/import/audit sequence is verified through agent-assisted native operations and recorded. No unaided human mouse-and-keyboard session or owner acceptance is claimed. If that manual requirement is retained, it remains outstanding.
+
+The compatible Bonsai alpha build crashed in its extrusion guide during one capture attempt. The successful recording hides viewport gizmos; the authoring evidence includes the crash trace and workaround. The isolated profile and downloaded extension are local, ignored runtime files.
 
 No external operator evaluation, production load, real employer data, actual ERP procurement, or LLM extraction was tested. The implementation compares documented fields rather than arbitrary property sets or a complete manufacturing graph. Actual development effort, cost, and hiring outcomes have not been measured.
 

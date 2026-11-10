@@ -109,6 +109,8 @@ If Blender is already installed, skip the install command. If Snap is unavailabl
 
 In Blender, follow the [Bonsai installation guide](https://docs.bonsaibim.org/studio/quickstart/installation.html): **Edit → Preferences → Get Extensions → Allow Online Access → search Bonsai → Install**. Confirm **Open IFC Project** appears in the File menu. This is a required GUI step for the authoring demonstration; `pip install ifcopenshell` does not install Bonsai into Blender.
 
+November 10 verification: the installed Blender 5.2.2 needs the Python 3.13 Bonsai build; the stable extension listing excludes Blender 5.1+. An official 0.9.1-alpha261110 package is now installed in an isolated pilot profile. See the [verified version pair, exact installation commands, and authoring evidence](../pilots/fluidstack-change-auditor/docs/bonsai-validation.md). A viewport-gizmo workaround was required for the recorded run.
+
 Blender uses its own Python environment. Keep it separate from the application's uv environment. Validate by opening the generated baseline, changing one beam, saving the IFC, and importing that file with the application.
 
 ## 5. Optional screen recording

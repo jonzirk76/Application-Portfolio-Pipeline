@@ -4,7 +4,7 @@ A local IFC revision auditor that traces supported geometry and material changes
 
 ![Working audit interface](docs/artifacts/audit-desktop.png)
 
-**Status:** working engine, API, and browser viewer; generated-fixture workflow verified. A manual Bonsai edit/save round trip remains unverified. Independent portfolio project, with no Fluidstack affiliation or employer materials.
+**Status:** engine, API, browser viewer, and an agent-assisted Bonsai edit/save/import/audit round trip are verified. Independent owner review remains pending; no unaided manual authoring claim. Independent portfolio project, with no Fluidstack affiliation or employer materials.
 
 ## Run locally
 
@@ -55,7 +55,9 @@ On this machine, reuse the temporary browser with `PLAYWRIGHT_BROWSERS_PATH=/tmp
 - [Job-to-evidence mapping](docs/job-requirements.md)
 - [Validation results and limitations](docs/validation.md)
 - [Complete example audit](docs/example-audit.json)
-- [Demo script and remaining authoring check](docs/demo-script.md)
+- [Bonsai authoring validation and reproduction](docs/bonsai-validation.md)
+- [87-second Bonsai round trip](docs/artifacts/bonsai/bonsai-roundtrip.webm) — actual native Bonsai operations and saved-file audit; agent-assisted, edited capture.
+- [Demo script and owner review](docs/demo-script.md)
 - [90-second browser walkthrough](docs/artifacts/browser-demo.webm) — actual scripted browser interactions with pre-generated IFC revisions; no live Bonsai edit.
 - [Fixture provenance](fixtures/manifest.json)
 
@@ -75,10 +77,10 @@ SQLite contains immutable JSON snapshots/reports and original source BLOBs. This
 engine/audit.py       IFC normalization, matching, comparison, impact rules
 engine/store.py       SQLite snapshots, source files, procurement, reports
 api/                 FastAPI validation, endpoints, static serving
-scripts/             Original fixture generator and headless audit CLI
+scripts/             Fixture generation, audit CLI, Bonsai authoring and capture
 fixtures/            IFC4 revisions, procurement, SHA-256 manifest
 web/                 TypeScript interface, That Open viewer, browser tests
-tests/               Engine/API cases and independent numeric expectations
+tests/               Engine/API cases, real Bonsai exports, numeric expectations
 docs/                Architecture, results, example audit, screenshots, video
 ```
 

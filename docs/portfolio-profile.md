@@ -60,12 +60,12 @@ The program hypothesis is that a role-specific, reproducible engineering artifac
 
 | Measure | Target | Current result |
 | --- | --- | --- |
-| Correctness | All required acceptance cases pass | Not measured |
-| Evidence completeness | Every discrepancy links source, revision, rule, BOM and PO where applicable | Not measured |
-| Full demonstration | 90-second edit → audit → procurement walkthrough | Not recorded |
-| Reproduction | One fresh-directory run succeeds after documented prerequisites | Not attempted |
+| Correctness | All required acceptance cases pass | 29 Python tests and two browser tests pass; independent owner review pending |
+| Evidence completeness | Every discrepancy links source, revision, rule, BOM and PO where applicable | Fixture and actual Bonsai-export reports retain lineage; saved/downloaded source bytes match |
+| Full demonstration | 90-second edit → audit → procurement walkthrough | 87-second agent-assisted Bonsai authoring and browser audit recorded; owner acceptance pending |
+| Reproduction | One fresh-directory run succeeds after documented prerequisites | Fresh-directory application run verified November 9; isolated Bonsai authoring captured November 10 |
 | Effort | At most 20 active hours across two calendar days | Not measured |
-| Runtime | Record ingest/diff times, element count, file size, hardware | No benchmark yet |
+| Runtime | Record ingest/diff times, element count, file size, hardware | One 16-member fixture comparison measured at approximately 0.044 seconds; no scalability benchmark |
 | Development cost | Log actual paid tool/API usage; no paid runtime API required by design | Not measured |
 | Reviewer comprehension | If a reviewer is available, they identify what changed, why it matters, and where evidence lives within two minutes | Not evaluated |
 | Hiring signal | Track application date, project-linked replies, interviews, and technical feedback over 30 days after submission | No application submitted |
@@ -84,4 +84,4 @@ After successful implementation, adapt this resume bullet using actual measureme
 Do not claim time saved, prevented procurement costs, real factory readiness, operator adoption, or production scalability without independent evidence. Keep the completed-project description narrower than the supported implementation.
 
 
-Implementation update: a working local pilot now exists. See the [measured validation results](../pilots/fluidstack-change-auditor/docs/validation.md). The full original Bonsai authoring/recording gate remains unverified; planned outcomes above should not be read as achieved claims.
+Implementation update: a working local pilot now exists. See the [measured validation results](../pilots/fluidstack-change-auditor/docs/validation.md). November 10 update: the [Bonsai authoring round trip](../pilots/fluidstack-change-auditor/docs/bonsai-validation.md) is verified with agent assistance and an 87-second recording. Independent owner review remains pending; planned outcomes above should not be read as achieved claims.
