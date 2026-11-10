@@ -1,6 +1,6 @@
 # Application Portfolio Pipeline — pilot planning pack
 
-Updated November 10, 2026. Status: **Bonsai authoring round trip verified with agent assistance; owner review pending**.
+Updated November 10, 2026. Status: **Bonsai authoring gate accepted after independent owner review**.
 
 Pilot: **OpenBIM Engineering Change Auditor**, an independent portfolio project targeted at Fluidstack's Software Engineer, Manufacturing & Supply Chain role.
 

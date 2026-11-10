@@ -4,7 +4,7 @@ November 10 update: the [87-second Bonsai recording](artifacts/bonsai/bonsai-rou
 now shows native authoring, save, browser import, and the resulting procurement
 audit. This is an agent-assisted, edited two-session capture. See the
 [authoring validation](bonsai-validation.md) for source files, hashes, reproduction,
-the alpha-build workaround, and pending independent owner review.
+the alpha-build workaround, and independent owner acceptance recorded November 10.
 
 `artifacts/browser-demo.webm` is a scripted, approximately 90-second recording of actual local browser interactions using pre-generated synthetic IFC revisions. Captions explicitly disclose that it is not a live Bonsai edit. It demonstrates the unchanged control, revised import, comparison, quantities, source evidence, PO reconciliation, and evidence register.
 

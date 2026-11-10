@@ -25,7 +25,7 @@ Updated November 10, 2026. Ubuntu 22.04 x86_64 / Intel i7-3770; Python 3.12.8; N
 
 ## Outstanding and limits
 
-**Independent owner review remains pending.** The technical Bonsai edit/save/import/audit sequence is verified through agent-assisted native operations and recorded. No unaided human mouse-and-keyboard session or owner acceptance is claimed. If that manual requirement is retained, it remains outstanding.
+**Bonsai authoring gate accepted November 10, 2026.** After receiving the independent-review checklist, the owner confirmed “all of those check out.” This closes the gate for the disclosed agent-assisted native edit/save/import/audit workflow. An unaided human mouse-and-keyboard session is not claimed. See the [acceptance record](bonsai-validation.md#owner-review).
 
 The compatible Bonsai alpha build crashed in its extrusion guide during one capture attempt. The successful recording hides viewport gizmos; the authoring evidence includes the crash trace and workaround. The isolated profile and downloaded extension are local, ignored runtime files.
 

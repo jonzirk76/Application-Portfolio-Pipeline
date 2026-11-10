@@ -1,7 +1,7 @@
 # Bonsai authoring round trip
 
 Verified November 10, 2026. **Technical round trip passed using agent-assisted
-Bonsai GUI operations. Independent owner review remains pending.** This is not
+Bonsai GUI operations. Independent owner review accepted November 10, 2026.** This is not
 evidence of an unaided human mouse-and-keyboard session.
 
 [Watch the 87-second recording](artifacts/bonsai/bonsai-roundtrip.webm), inspect
@@ -21,7 +21,7 @@ the [saved IFC](artifacts/bonsai/bonsai-revised.ifc), or read the
 | Procurement | One affected BOM line, one flagged PO line, two review reasons, no uncertain components; piece counts stay one |
 | Browser | Actual exported IFC renders, A/B switching works, source download matches saved bytes, and browser JSON equals CLI JSON |
 | Negative controls | Baseline against itself is clean; the stale-quantity export yields uncertainty and no definitive PO flag |
-| Independent owner review | Pending; no human acceptance or unaided authoring claim |
+| Independent owner review | Accepted November 10, 2026 for the disclosed agent-assisted workflow |
 
 ![Bonsai saved revision](artifacts/bonsai/bonsai-saved.png)
 
@@ -135,8 +135,18 @@ Validate them and refresh the evidence manifest together if replacing artifacts.
 
 ## Owner review
 
-The workplan reserves an independent check of the edit and report for the owner.
-Review the recording, the selected source hash, and the two PO reasons. Acceptance
-of an agent-assisted authoring demonstration has not yet been recorded. If the
-gate requires a person to operate Bonsai manually, that separate manual session
-remains outstanding; use the same artifact checks afterward.
+The owner completed the independent review on **November 10, 2026**, reporting:
+
+> all of those check out
+
+The supplied checklist covered the recording, comparison of the actual saved IFC,
+expected geometry/material/count results, identity and source hash, both PO
+reasons, unchanged and stale-quantity controls, and acceptance of agent-assisted
+native authoring with the documented alpha-build workaround. This confirmation
+closes the remaining authoring gate for that disclosed workflow.
+
+The recording's final caption says owner review was pending because it was
+captured before this acceptance. The original recording and source evidence are
+preserved unchanged. Acceptance does not establish unaided manual authoring,
+production readiness, external operator adoption, or the unmeasured effort and
+hiring outcomes.

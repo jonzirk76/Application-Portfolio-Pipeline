@@ -4,7 +4,7 @@ A local IFC revision auditor that traces supported geometry and material changes
 
 ![Working audit interface](docs/artifacts/audit-desktop.png)
 
-**Status:** engine, API, browser viewer, and an agent-assisted Bonsai edit/save/import/audit round trip are verified. Independent owner review remains pending; no unaided manual authoring claim. Independent portfolio project, with no Fluidstack affiliation or employer materials.
+**Status:** engine, API, browser viewer, and an agent-assisted Bonsai edit/save/import/audit round trip are verified. The owner accepted the independent review on November 10, 2026; authoring remains explicitly agent-assisted. Independent portfolio project, with no Fluidstack affiliation or employer materials.
 
 ## Run locally
 

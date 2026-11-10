@@ -1,7 +1,7 @@
 {
   "captured_on": "2026-11-10",
   "authoring_mode": "agent-assisted native Bonsai operators in Blender GUI",
-  "owner_review": "pending",
+  "owner_review": "accepted",
   "fixture_license": "CC0-1.0; original synthetic fixture derivatives",
   "video": {
     "duration_seconds": 87.134,
@@ -20,5 +20,11 @@
     "session.json": "44b27886453052fa30938e7e252962019bb09345b3546be9135ec3b153d49377",
     "stale-audit.json": "5c5228c63635861630803ee2249ff346a6f822c7bb98ea945d469993e27518c8",
     "stale-quantities.ifc": "71cbf9aed77bd8e3c1997249b9341d2b095a6c3724b01f862dfc501a4bbf4a6d"
+  },
+  "owner_review_record": {
+    "date": "2026-11-10",
+    "confirmation": "all of those check out",
+    "scope": "Independent checklist review; acceptance of the disclosed agent-assisted Bonsai authoring workflow",
+    "record": "../../bonsai-validation.md#owner-review"
   }
 }
