@@ -13,6 +13,7 @@ Updated November 10, 2026. Ubuntu 22.04 x86_64 / Intel i7-3770; Python 3.12.8; N
 - The Bonsai export renders in the browser, switches A/B, and downloads byte-for-byte. Its browser JSON equals the CLI report. The edited authoring → browser recording is **87.134 seconds**. See the [full evidence and method](bonsai-validation.md); authoring was agent-assisted.
 - Expected fixture output: 16 members, 1 modified, 15 unchanged, 1 affected BOM line, 1 flagged PO line, 2 reasons, no uncertain components. Length +0.500 m; volume +0.010 m³; piece count unchanged.
 - One local headless fixture read/compare run took approximately **0.044 seconds**, excluding Python startup. This is not a scalability benchmark.
+- The owner reports that the MVP was completed in approximately **two sessions**, consistent with the rapid-prototyping goal. Active hours and calendar duration were not measured; this does not independently verify the specific 20-hour/two-day budget.
 
 ## Failures fixed
 
@@ -29,7 +30,7 @@ Updated November 10, 2026. Ubuntu 22.04 x86_64 / Intel i7-3770; Python 3.12.8; N
 
 The compatible Bonsai alpha build crashed in its extrusion guide during one capture attempt. The successful recording hides viewport gizmos; the authoring evidence includes the crash trace and workaround. The isolated profile and downloaded extension are local, ignored runtime files.
 
-No external operator evaluation, production load, real employer data, actual ERP procurement, or LLM extraction was tested. The implementation compares documented fields rather than arbitrary property sets or a complete manufacturing graph. Actual development effort, cost, and hiring outcomes have not been measured.
+No external operator evaluation, production load, real employer data, actual ERP procurement, or LLM extraction was tested. The implementation compares documented fields rather than arbitrary property sets or a complete manufacturing graph. Active development hours, cost, and hiring outcomes have not been measured.
 
 Known upstream warnings: optional WebGPU exports from That Open's Three.js integration during build, and Starlette's HTTPX test-client deprecation. The tested WebGL path works. API tests require execution outside this environment's sandbox because its async thread wakeups stall TestClient.
 

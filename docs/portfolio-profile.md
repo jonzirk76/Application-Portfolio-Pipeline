@@ -1,6 +1,6 @@
 # Portfolio profile — pilot 001
 
-Prepared November 9, 2026. Status: **proposed; no completed implementation or measured results yet**.
+Prepared November 9, 2026. Status: **MVP implemented and authoring gate accepted**. The plan below includes the original proposed scope; current results are recorded in the scorecard.
 
 | Field | Profile |
 | --- | --- |
@@ -64,7 +64,7 @@ The program hypothesis is that a role-specific, reproducible engineering artifac
 | Evidence completeness | Every discrepancy links source, revision, rule, BOM and PO where applicable | Fixture and actual Bonsai-export reports retain lineage; saved/downloaded source bytes match |
 | Full demonstration | 90-second edit → audit → procurement walkthrough | 87-second agent-assisted Bonsai authoring and browser audit recorded; accepted by owner November 10 |
 | Reproduction | One fresh-directory run succeeds after documented prerequisites | Fresh-directory application run verified November 9; isolated Bonsai authoring captured November 10 |
-| Effort | At most 20 active hours across two calendar days | Not measured |
+| Effort | At most 20 active hours across two calendar days | Owner reports the MVP was completed in approximately two sessions, meeting the rapid-prototyping goal. Active hours and calendar duration were not measured, so the specific budget cannot be verified. |
 | Runtime | Record ingest/diff times, element count, file size, hardware | One 16-member fixture comparison measured at approximately 0.044 seconds; no scalability benchmark |
 | Development cost | Log actual paid tool/API usage; no paid runtime API required by design | Not measured |
 | Reviewer comprehension | If a reviewer is available, they identify what changed, why it matters, and where evidence lives within two minutes | Not evaluated |

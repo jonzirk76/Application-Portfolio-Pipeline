@@ -1,6 +1,6 @@
 # Pilot workplan and prompt analysis
 
-Date: November 9, 2026. Status: proposed implementation, not completed work.
+Date: November 9, 2026. This is the original plan; the MVP has since been implemented and its authoring gate accepted. See the implementation update and validation record for results.
 
 ## Assessment
 
@@ -127,3 +127,5 @@ Implement under `pilots/fluidstack-change-auditor/` so this workspace can hold l
 
 
 Implementation update: a working local pilot now exists. See the [measured validation results](../pilots/fluidstack-change-auditor/docs/validation.md). November 10 update: the [Bonsai authoring round trip](../pilots/fluidstack-change-auditor/docs/bonsai-validation.md) is verified with agent assistance and an 87-second recording. The owner accepted the independent review on November 10, closing the authoring gate for the disclosed agent-assisted workflow; other planned outcomes above should not be read as achieved claims.
+
+The owner reports that the MVP was completed in approximately two sessions, consistent with the rapid-prototyping goal. Active hours and calendar duration were not measured, so compliance with the specific 20-hour/two-day budget remains unverified.
