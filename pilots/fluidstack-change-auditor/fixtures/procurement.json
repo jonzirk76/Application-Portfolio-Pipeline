@@ -1,0 +1,145 @@
+{
+  "synthetic": true,
+  "bom_revision": "A",
+  "bom_lines": [
+    {
+      "id": "BOM-BEAM-007",
+      "component_guid": "1GIKBmOjDOVBcT1bXi5WAM",
+      "tag": "BEAM-007",
+      "specification": "Grade A",
+      "length_m": 3.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-BEAM-008",
+      "component_guid": "13ewKmnJrLLxTR2EEx4Z3l",
+      "tag": "BEAM-008",
+      "specification": "Grade A",
+      "length_m": 3.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-BEAM-009",
+      "component_guid": "0JgVtPJIDUOOSiTyPOKl$P",
+      "tag": "BEAM-009",
+      "specification": "Grade A",
+      "length_m": 3.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-BEAM-010",
+      "component_guid": "1CYdsSf_nNCPuGtu8DtQNo",
+      "tag": "BEAM-010",
+      "specification": "Grade A",
+      "length_m": 3.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-BEAM-011",
+      "component_guid": "3UdjncJP5TQhp$iQz7r$IA",
+      "tag": "BEAM-011",
+      "specification": "Grade A",
+      "length_m": 4.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-BEAM-012",
+      "component_guid": "2p3XBvR59QAgMEHwd$yJti",
+      "tag": "BEAM-012",
+      "specification": "Grade A",
+      "length_m": 4.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-BEAM-013",
+      "component_guid": "2DG8SKrCLT1f2T1mWlHW1E",
+      "tag": "BEAM-013",
+      "specification": "Grade A",
+      "length_m": 4.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-BEAM-014",
+      "component_guid": "1x842QenjT7xv_8_Lg0OlW",
+      "tag": "BEAM-014",
+      "specification": "Grade A",
+      "length_m": 4.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-BEAM-015",
+      "component_guid": "0BfXuJg41GsQS7iIhT6mKg",
+      "tag": "BEAM-015",
+      "specification": "Grade A",
+      "length_m": 4.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-BEAM-016",
+      "component_guid": "2yvAJlUCTG0OVN4kRkW_5g",
+      "tag": "BEAM-016",
+      "specification": "Grade A",
+      "length_m": 4.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-COL-001",
+      "component_guid": "0pwLjVdlfI4eWnZIfNZrYl",
+      "tag": "COL-001",
+      "specification": "Grade A",
+      "length_m": 3.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-COL-002",
+      "component_guid": "3qr_yVNzPL5gzkbXdC6QZv",
+      "tag": "COL-002",
+      "specification": "Grade A",
+      "length_m": 3.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-COL-003",
+      "component_guid": "1gTAtwMR5RbOFq2nOEKaaW",
+      "tag": "COL-003",
+      "specification": "Grade A",
+      "length_m": 3.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-COL-004",
+      "component_guid": "2nQ6tKAB1TIRgUOgTU$a3h",
+      "tag": "COL-004",
+      "specification": "Grade A",
+      "length_m": 3.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-COL-005",
+      "component_guid": "0R9m_lE3zUORjLlseDJztn",
+      "tag": "COL-005",
+      "specification": "Grade A",
+      "length_m": 3.0,
+      "count": 1
+    },
+    {
+      "id": "BOM-COL-006",
+      "component_guid": "1OE5golTXOKQB8a7RnjrSv",
+      "tag": "COL-006",
+      "specification": "Grade A",
+      "length_m": 3.0,
+      "count": 1
+    }
+  ],
+  "po_lines": [
+    {
+      "id": "PO-1042/1",
+      "po": "PO-1042",
+      "bom_line_id": "BOM-BEAM-014",
+      "specification": "Grade A",
+      "length_m": 4.0,
+      "count": 1,
+      "status": "ordered"
+    }
+  ]
+}

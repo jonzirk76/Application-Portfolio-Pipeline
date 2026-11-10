@@ -1,0 +1,30 @@
+[project]
+name = "fluidstack-change-auditor"
+version = "0.1.0"
+description = "Deterministic IFC4 revision auditing with synthetic BOM and procurement lineage"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.162.2",
+    "ifcopenshell>=0.9.0.post1",
+    "pydantic>=2.14.3",
+    "python-multipart>=0.0.33",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

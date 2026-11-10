@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+data/
+web/node_modules/
+web/dist/
+web/test-results/
+web/playwright-report/
+web/public/vendor/
+core
+core.*
