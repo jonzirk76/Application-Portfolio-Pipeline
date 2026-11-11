@@ -8,6 +8,7 @@ Pilot: **OpenBIM Engineering Change Auditor**, an independent portfolio project 
 - [Portfolio profile](docs/portfolio-profile.md): positioning, role alignment, demonstration, evidence, and experiment metrics.
 - [Installation commands](docs/setup.md): Ubuntu setup, Python and browser dependencies, Bonsai installation, and validation.
 - [Commit policy](docs/commit-policy.md): concise subsystem subjects and dependency-ordered changes for agent navigation.
+- [ANS extension plan](docs/ans-extension-plan.md): enclosure footings, base plates, and HSS posts; inspected public IFC sources and proposed drawing/revision workflow.
 
 The [implemented pilot](pilots/fluidstack-change-auditor/README.md) follows one beam revision from IFC geometry through synthetic BOM and procurement evidence. See its [validation record](pilots/fluidstack-change-auditor/docs/validation.md) for measured results and outstanding scope.
 

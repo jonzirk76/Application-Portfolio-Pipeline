@@ -1,0 +1,64 @@
+{
+  "inspected_on": "2026-11-11",
+  "tool": "IfcOpenShell 0.9.0.post1",
+  "method": "Parsed source bytes; counted entities and representation types. No visual review, geometry validation, or automatic shape recognition performed. Absence of a class does not rule out geometry represented by another class.",
+  "models": [
+    {
+      "repository": "https://github.com/buildingSMART/Certification-datasets",
+      "commit": "80d976a9b193a26a8e928c3e79bff67af1de68a8",
+      "path": "IFC 4.0.2.1 (IFC 4 ADD2 TC1)/Simple-Scene/Building-Structural.ifc",
+      "sha256": "903b5a005901397aa2b235daf6a60f46c099eae286cb01c815abf0a341707432",
+      "bytes": 185185,
+      "schema": "IFC4",
+      "element_count": 17,
+      "element_classes": {
+        "IfcBeam": 6,
+        "IfcBuildingElementProxy": 2,
+        "IfcChimney": 1,
+        "IfcDiscreteAccessory": 2,
+        "IfcFooting": 1,
+        "IfcRoof": 1,
+        "IfcWall": 4
+      },
+      "profile_classes": {},
+      "footing_representation_types": {
+        "Tessellation": 1
+      },
+      "license": "CC BY 4.0",
+      "license_evidence_path": "LICENSE"
+    },
+    {
+      "repository": "https://github.com/buildingsmart-community/Community-Sample-Test-Files",
+      "commit": "31eb1dd0a0406fb9ebf0ebd823b48e1ec95afc08",
+      "path": "IFC 2.3.0.1 (IFC 2x3)/Medical-Dental Clinic/Clinic_Structural.ifc",
+      "sha256": "325287b375f154dc79504c4bbf67b40c501f458f23a8c4ba13b27171e00533d8",
+      "bytes": 19058175,
+      "schema": "IFC2X3",
+      "element_count": 1094,
+      "element_classes": {
+        "IfcBeam": 738,
+        "IfcColumn": 195,
+        "IfcFooting": 96,
+        "IfcOpeningElement": 7,
+        "IfcRailing": 3,
+        "IfcRamp": 1,
+        "IfcRampFlight": 1,
+        "IfcRoof": 12,
+        "IfcSlab": 13,
+        "IfcStair": 1,
+        "IfcStairFlight": 1,
+        "IfcWallStandardCase": 26
+      },
+      "profile_classes": {
+        "IfcArbitraryClosedProfileDef": 818,
+        "IfcRectangleProfileDef": 90
+      },
+      "footing_representation_types": {
+        "SurfaceModel": 7,
+        "SweptSolid": 89
+      },
+      "license": "CC BY 4.0",
+      "license_evidence_path": "IFC 2.3.0.1 (IFC 2x3)/Medical-Dental Clinic/README.md"
+    }
+  ]
+}
