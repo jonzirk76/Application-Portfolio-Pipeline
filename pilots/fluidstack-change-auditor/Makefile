@@ -1,4 +1,4 @@
-.PHONY: setup fixtures audit test build serve demo
+.PHONY: setup fixtures audit enclosure test build serve demo
 
 setup:
 	uv sync --locked
@@ -6,13 +6,17 @@ setup:
 
 fixtures:
 	uv run --locked python -m scripts.fixtures
+	uv run --locked python -m enclosure.fixtures
+
+enclosure:
+	uv run --locked python -m enclosure.demo
 
 audit:
 	uv run --locked python -m scripts.audit
 
 test:
 	uv run --locked python -m pytest -q
-	uv run --locked ruff check engine api scripts tests
+	uv run --locked ruff check engine enclosure api scripts tests
 
 build:
 	npm --prefix web run build
