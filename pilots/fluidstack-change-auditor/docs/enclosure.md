@@ -20,6 +20,11 @@ to load the new routes. The only added runtime library is locked `ezdxf==1.4.5`
 and its resolved dependencies; existing Vite/web-ifc pins are retained. For a
 fresh checkout, run `make setup` before building.
 
+After frontend changes, run `make build`; restarting the server alone does not
+compile the frontend. HTML entry pages require browser revalidation so they pick
+up the current asset hashes. If a page was cached before this policy was added,
+use Ctrl+Shift+R once. The current viewer label reads **GRID / IFC Z = 0**.
+
 The workspace starts with a 24 → 30-inch diameter change to F-01 and issue A's
 old drawings. Three documents require revision: S-101 (foundation plan and base
 plate details), S-501 (support sections/elevations), and SCH-01 (schedule).

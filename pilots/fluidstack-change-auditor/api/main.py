@@ -15,6 +15,16 @@ from engine.store import Store
 from scripts.fixtures import ROOT, generate
 
 
+class RevalidatedHtmlFiles(StaticFiles):
+    """Recheck entry pages so their asset hashes follow the latest build."""
+
+    def file_response(self, full_path, stat_result, scope, status_code=200):
+        response = super().file_response(full_path, stat_result, scope, status_code)
+        if Path(full_path).suffix.lower() == ".html":
+            response.headers["Cache-Control"] = "no-cache"
+        return response
+
+
 def create_app(database=None):
     store = Store(
         database or os.environ.get("AUDITOR_DB", ROOT / "data/auditor.sqlite")
@@ -129,7 +139,7 @@ def create_app(database=None):
     # Keep API routes ahead of the static app. No SPA catchall for unknown API paths.
     dist = ROOT / "web/dist"
     if dist.exists():
-        app.mount("/", StaticFiles(directory=dist, html=True), name="web")
+        app.mount("/", RevalidatedHtmlFiles(directory=dist, html=True), name="web")
     return app
 
 
