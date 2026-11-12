@@ -1,0 +1,14 @@
+.enclosure-controls{display:flex;gap:14px;align-items:end;flex-wrap:wrap;padding:16px;margin-bottom:12px}
+.enclosure-controls label{display:flex;flex-direction:column;gap:6px;font-size:10px;flex:1;min-width:150px;color:#637867}
+.enclosure-controls select,.enclosure-controls input{padding:9px;border:1px solid #d6dfd3;background:#fff;color:#264c39;border-radius:4px;max-width:100%;min-width:0;width:100%;font-size:11px}
+.enclosure-controls .issue-label{flex:0 1 80px;min-width:70px}
+.enclosure-controls .upload-label{flex:none;min-width:0}
+.enclosure-help{font-size:11px;line-height:1.7;color:#697d6d;margin-bottom:20px}
+.enclosure-actions{display:flex;gap:15px;flex-wrap:wrap;margin-bottom:20px}
+.enclosure-drawing{width:100%;display:block;background:#fffef9}
+.drawing-tools{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:13px 18px;background:#f7f9f4;font-size:11px}
+.drawing-tools select{padding:7px;border:1px solid #d6dfd3;border-radius:3px;background:white}
+.drawing-caption{padding:10px 18px;font-size:11px;line-height:1.6;color:#6c7e6e;overflow-wrap:anywhere}
+.enclosure-section{margin:22px 0}.enclosure-findings{padding:0 18px}.enclosure-findings article{padding:14px 0;border-bottom:1px solid #e3e9df;font-size:12px;line-height:1.7}.enclosure-findings h3{font-size:12px}.enclosure-findings p{color:#6a7d68}.enclosure-findings ul{margin:5px 0;padding-left:20px}
+.enclosure-source{padding:18px;font-size:11px;line-height:1.7;overflow-wrap:anywhere}.enclosure-source code{font-size:10px;display:block}.enclosure-source a{display:inline-block;margin:8px 15px 8px 0}.enclosure-detail{padding:18px;font-size:12px;line-height:1.7}.enclosure-detail h3{font-size:22px;margin:5px 0 14px}.enclosure-detail table th,.enclosure-detail table td{font-size:11px;padding:8px}.enclosure-detail details{font-size:10px;margin-top:18px;overflow-wrap:anywhere}.enclosure-detail .comparison-table{width:100%;margin:0}.enclosure-note{margin-top:16px;font-size:10px;color:#72816f}
+@media(max-width:760px){.enclosure-controls{gap:12px}.enclosure-controls label{min-width:120px}.enclosure-controls .button{width:100%;justify-content:center}.enclosure-actions{gap:12px}.enclosure-page .sidebar{flex-wrap:wrap;gap:12px}.enclosure-page .page-heading{flex-wrap:wrap}.enclosure-page .analysis-grid{grid-template-columns:minmax(0,1fr)}}

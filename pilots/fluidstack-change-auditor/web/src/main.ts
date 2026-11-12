@@ -15,7 +15,7 @@ let showAll = false, busy = false;
 app.innerHTML = `
 <aside class="sidebar"><a class="brand" href="/"><span class="brand-mark">◈</span><span>OpenBIM<small>ENGINEERING SYSTEMS</small></span></a>
 <div class="workspace-label">PILOT WORKSPACE <span>01</span></div>
-<nav aria-label="Workspace"><button class="nav-item active" id="audit-tab">▧ <span>Change audit</span></button><button class="nav-item" id="evidence-tab">⌕ <span>Evidence register</span></button></nav>
+<nav aria-label="Workspace"><button class="nav-item active" id="audit-tab">▧ <span>Change audit</span></button><button class="nav-item" id="evidence-tab">⌕ <span>Evidence register</span></button><a class="nav-item" href="/enclosure.html">▧ <span>Enclosure details</span></a></nav>
 <div class="sidebar-note"><span class="small-cap">THE WORKFLOW</span><ol><li>Compare model revisions</li><li>Trace BOM lineage</li><li>Reconcile ordered items</li></ol></div><div class="sidebar-footer">● Local pilot<small>Synthetic procurement · v1.0</small></div></aside>
 <main><header class="topbar"><span>Engineering / <strong>Revision control</strong></span><span class="local-chip">LOCAL WORKSPACE</span></header>
 <div class="page-content"><div class="page-heading"><div><div class="eyebrow">DESIGN CHANGES. DOWNSTREAM CONSEQUENCES.</div><h1>Engineering change audit</h1><p>See what changed, what it affects, and the evidence behind it.</p></div><a id="export" class="button secondary disabled" aria-disabled="true">↓ Export audit</a></div>

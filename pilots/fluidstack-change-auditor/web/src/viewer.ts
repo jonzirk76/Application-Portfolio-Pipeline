@@ -48,7 +48,7 @@ export class ModelViewer {
     if (hit) { const [guid] = await hit.fragments.getGuidsByLocalIds([hit.localId]); if (guid) this.onPick(guid); }
   }
 
-  async load(revision: string, changed: string[]) {
+  async load(revision: string, changed: string[], sourceUrl = `/api/revisions/${revision}/source`) {
     this.changed = changed;
     if (this.revision === revision && this.model) return;
     if (this.model) {
@@ -57,7 +57,7 @@ export class ModelViewer {
       this.model = null;
     }
     this.revision = '';
-    const response = await fetch(`/api/revisions/${revision}/source`);
+    const response = await fetch(sourceUrl);
     if (!response.ok) throw new Error('Unable to load source IFC');
     this.model = await this.loader.load(new Uint8Array(await response.arrayBuffer()), false, revision);
     this.model.useCamera(this.world.camera.three);
