@@ -8,6 +8,7 @@ from fastapi.responses import JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from starlette.concurrency import run_in_threadpool
 
+from api.enclosure import setup as setup_enclosure
 from api.models import AuditRequest, Procurement
 from engine.audit import compare, extract
 from engine.store import Store
@@ -37,12 +38,14 @@ def create_app(database=None):
             "revised_id": ids[1],
             "procurement_id": store.add_procurement(procurement),
         }
+        await run_in_threadpool(seed_enclosure)
         yield
 
     app = FastAPI(
         title="OpenBIM Engineering Change Auditor", version="1.0.0", lifespan=lifespan
     )
     app.state.store = store
+    seed_enclosure = setup_enclosure(app, store.path.with_name(store.path.stem + "-enclosure.sqlite"))
 
     @app.exception_handler(KeyError)
     async def not_found(_request, _exc):
