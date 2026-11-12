@@ -31,6 +31,13 @@ new package clears stale-document findings but leaves the alignment finding.
 package. Component selection, baseline/revised viewing, IFC import, and source,
 audit, DXF, SVG, CSV, and ZIP downloads are available.
 
+The viewer grid marks **IFC Z = 0**. In these fixtures that is the footing-top
+datum: concrete extends 48 inches below it, with plates and posts above it.
+The viewer preserves source coordinates instead of rebasing to a geometry point.
+For uploaded models, zero remains the source reference plane; finished grade is
+not inferred from a bounding box or a storey name. Survey coordinates and a
+separate finished-grade datum are outside this pilot's viewer scope.
+
 The ZIP includes the exact source IFC, issue manifest with hashes, two editable
 DXFs, two SVG sheets, and JSON/CSV schedules. All generated packages remain
 **review drafts**. Selecting an older package preserves its original drawing

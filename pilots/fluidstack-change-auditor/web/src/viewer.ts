@@ -30,7 +30,13 @@ export class ModelViewer {
     this.components.get(OBC.Grids).create(this.world);
     this.fragments.init('/vendor/fragments-worker.mjs');
     this.world.camera.controls.addEventListener('update', () => { void this.fragments.core.update(); });
-    await this.loader.setup({ autoSetWasm: false, wasm: { path: `${location.origin}/vendor/`, absolute: true } });
+    await this.loader.setup({
+      autoSetWasm: false,
+      wasm: { path: `${location.origin}/vendor/`, absolute: true },
+      // Keep IFC Z=0 aligned with the grid (Three.js Y=0). Web-IFC's default
+      // rebase uses a geometry point, which can put the grid at the post tops.
+      webIfc: { COORDINATE_TO_ORIGIN: false },
+    });
     const canvas = this.world.renderer.three.domElement;
     canvas.setAttribute('aria-label', 'Interactive IFC model. Drag to orbit; use the component table for keyboard selection.');
     canvas.addEventListener('pointerdown', e => { this.down = { x: e.clientX, y: e.clientY }; });
