@@ -85,3 +85,11 @@ docs/                Architecture, results, example audit, screenshots, video
 ```
 
 Vite 8/Rolldown crashed on this machine's CPU; Vite 7.3.8 works. web-ifc 0.0.78 failed real browser conversion; 0.0.77 works. Current That Open packages emit warnings about optional WebGPU exports; this application's verified path uses WebGL. API tests emit an upstream HTTPX deprecation warning. Recheck runtime behavior before upgrading dependencies.
+
+## Enclosure detailing extension
+
+The ANS enclosure workspace adds cylindrical concrete footings, 4 × 4-inch HSS
+posts, 10 × 10-inch base plates, generated DXF/SVG details, and drawing revision
+checks. Open `/enclosure.html` on the local server. See the
+[workflow, artifacts, and validation](docs/enclosure.md); owner drawing review and
+native Autodesk verification remain open.

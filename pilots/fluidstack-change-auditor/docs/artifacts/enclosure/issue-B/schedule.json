@@ -1,0 +1,98 @@
+[
+  {
+    "mark": "BP-01",
+    "assembly": "AS-01",
+    "guid": "1Udf14m1LHGP8ZUWLqfvl0",
+    "role": "plate",
+    "material": "Illustrative steel; grade unspecified",
+    "dimensions_in": {
+      "length": 10.0,
+      "thickness": 0.5,
+      "width": 10.0,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "volume_m3": 0.0008193532
+  },
+  {
+    "mark": "F-01",
+    "assembly": "AS-01",
+    "guid": "1yA9K6kvbUgw0Hik00NhJ2",
+    "role": "footing",
+    "material": "Illustrative cast-in-place concrete",
+    "dimensions_in": {
+      "depth": 48.0,
+      "diameter": 30.0,
+      "x": 0.0,
+      "y": 0.0,
+      "z": -48.0
+    },
+    "volume_m3": 0.5559999827
+  },
+  {
+    "mark": "HSS-01",
+    "assembly": "AS-01",
+    "guid": "3hnl2f$i5R2xLAtCXYaUm9",
+    "role": "post",
+    "material": "Illustrative steel; grade unspecified",
+    "dimensions_in": {
+      "height": 72.0,
+      "length": 4.0,
+      "wall_thickness": 0.25,
+      "width": 4.0,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "volume_m3": 0.0044245073
+  },
+  {
+    "mark": "BP-02",
+    "assembly": "AS-02",
+    "guid": "1oNdS1$fjUpxg3BWoZOxbc",
+    "role": "plate",
+    "material": "Illustrative steel; grade unspecified",
+    "dimensions_in": {
+      "length": 10.0,
+      "thickness": 0.5,
+      "width": 10.0,
+      "x": 96.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "volume_m3": 0.0008193532
+  },
+  {
+    "mark": "F-02",
+    "assembly": "AS-02",
+    "guid": "1vVNAnWkzIBuLMbZ8rkoVx",
+    "role": "footing",
+    "material": "Illustrative cast-in-place concrete",
+    "dimensions_in": {
+      "depth": 48.0,
+      "diameter": 24.0,
+      "x": 96.0,
+      "y": 0.0,
+      "z": -48.0
+    },
+    "volume_m3": 0.3558399889
+  },
+  {
+    "mark": "HSS-02",
+    "assembly": "AS-02",
+    "guid": "04NJDIwMbPWRzEVGshL4wQ",
+    "role": "post",
+    "material": "Illustrative steel; grade unspecified",
+    "dimensions_in": {
+      "height": 72.0,
+      "length": 4.0,
+      "wall_thickness": 0.25,
+      "width": 4.0,
+      "x": 96.0,
+      "y": 0.0,
+      "z": 0.5
+    },
+    "volume_m3": 0.0044245073
+  }
+]

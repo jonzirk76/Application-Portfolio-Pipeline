@@ -1,0 +1,11 @@
+{
+  "method": "Scripted browser walkthrough using pre-generated original IFC revisions",
+  "stale_report_matches_cli": true,
+  "current_report_matches_cli": true,
+  "alignment_survives_regeneration": true,
+  "unchanged_control_clean": true,
+  "real_ifc_viewer_loaded": true,
+  "browser_errors": [],
+  "owner_review": "pending",
+  "autodesk_round_trip": "not performed"
+}

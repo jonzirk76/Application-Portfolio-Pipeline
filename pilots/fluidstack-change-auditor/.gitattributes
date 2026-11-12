@@ -1,0 +1,4 @@
+# Evidence manifests hash exact bytes, including the CSV writer's CRLF endings.
+fixtures/enclosure/*.ifc -text linguist-generated=true
+docs/artifacts/enclosure/** -text linguist-generated=true
+docs/artifacts/enclosure/**/*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

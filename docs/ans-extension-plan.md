@@ -1,7 +1,9 @@
 # ANS extension — enclosure foundation detailing
 
-Prepared November 11, 2026. Status: **initial source research complete; proposed scope,
-not implemented**. This extends the completed OpenBIM Engineering Change Auditor.
+Prepared November 11, 2026; updated November 12. Status: **prototype implemented;
+owner drawing review and native Autodesk verification remain open**. The original
+scope below is retained for comparison. See the [implemented workflow and validation](../pilots/fluidstack-change-auditor/docs/enclosure.md).
+This extends the completed OpenBIM Engineering Change Auditor.
 
 ## Role and portfolio position
 
@@ -182,6 +184,7 @@ for the model and audit work. Keep the existing Vite and web-ifc pins.
 For DXF generation, [ezdxf](https://ezdxf.readthedocs.io/en/stable/) is a candidate
 addition. Its documented drawing add-on supports SVG/PDF output; choose and lock
 the required rendering dependencies when implementing that deliverable. No
-additional packages have been installed for this research. Autodesk availability
+additional packages were installed during the initial research. Implementation
+subsequently added locked `ezdxf==1.4.5` and its resolved dependencies. Autodesk availability
 remains to be confirmed before native CAD review; inch-based dimensions are the
 working assumption for this fixture.

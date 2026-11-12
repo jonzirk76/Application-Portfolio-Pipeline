@@ -1,0 +1,69 @@
+{
+  "method": "Deterministic original IFC fixtures and generated drawing packages; no manual CAD authoring claimed",
+  "license": "Original model and drawing assets CC0-1.0",
+  "summaries": {
+    "stale-audit": {
+      "unchanged": 5,
+      "modified": 1,
+      "added": 0,
+      "removed": 0,
+      "stale_documents": 3,
+      "alignment_findings": 0,
+      "uncertain_components": 0
+    },
+    "current-audit": {
+      "unchanged": 5,
+      "modified": 1,
+      "added": 0,
+      "removed": 0,
+      "stale_documents": 0,
+      "alignment_findings": 0,
+      "uncertain_components": 0
+    },
+    "unchanged-control": {
+      "unchanged": 6,
+      "modified": 0,
+      "added": 0,
+      "removed": 0,
+      "stale_documents": 0,
+      "alignment_findings": 0,
+      "uncertain_components": 0
+    },
+    "alignment-audit": {
+      "unchanged": 5,
+      "modified": 1,
+      "added": 0,
+      "removed": 0,
+      "stale_documents": 3,
+      "alignment_findings": 1,
+      "uncertain_components": 0
+    }
+  },
+  "sha256": {
+    "alignment-audit.json": "e882744424d8a1a5f1f4069c6c20469e3e29fadc1ebb1b1a1f3c173e6884a55a",
+    "browser-verification.json": "76c15e0cabdb6a41bcf11acc3efd513aac158094e9cf91fc6bcef8d2cadedcfb",
+    "current-audit.json": "46aebc289467c2bab6698415e4883455cea2bafc5176f2a223a876c924788319",
+    "issue-A/S-101.dxf": "aedb0b76f50a8d7fc81d1553fabced46781b3b25befc13bd0168e676d21ebea9",
+    "issue-A/S-101.svg": "887704b73f3bc41217c1501cf83abb84e86e7cfa48731b21ed48524e34732560",
+    "issue-A/S-501.dxf": "5b5722f971b3fe939a0a80c2b4d61fd55ee13d9c1099b0af2ef374c99815c7ca",
+    "issue-A/S-501.svg": "1b1d1d579a2ba0a9bbff0e7c6dc2c6ddf5bd8f10901bac62a97f34ca719579bb",
+    "issue-A/manifest.json": "fab9fc7260b8333c56ece8422628df0613ddb343f50972206514457532478e34",
+    "issue-A/schedule.csv": "883cb2aa1198611169e02ee28fed52f9a23c2c7e7c28336af11c95fc497ea5a1",
+    "issue-A/schedule.json": "356d680a5d7445d163f50706e93c251da1d843b13656938f543ef5a891712a11",
+    "issue-A/source.ifc": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+    "issue-B/S-101.dxf": "7cbf56bb687d3cd31ab395840b61a9bb41e4b965077f8304706167dedac6246f",
+    "issue-B/S-101.svg": "75041c9510da69083edc1f21e44079b9a1a969138253920b458a12948502c9cf",
+    "issue-B/S-501.dxf": "49c98d6c814c03d6bf73f2a32213c6d6f1cb15f0c5c341e5c09cffd6e2737ed1",
+    "issue-B/S-501.svg": "96e7830208b9fa629718d86eee5b4a99938826ff9a52d37edd8ee4711083968c",
+    "issue-B/manifest.json": "bf804ad9bc78b65bf43ba90b74acfa57c14259d5c9142a9bcf8c6c6c14e20a46",
+    "issue-B/schedule.csv": "01a3d63f6b66068a2bcff0248571723bbced7cee890b215e4569afdbdb08cb39",
+    "issue-B/schedule.json": "7a85af9b20906942bb2fbe864296cff81a65886dd9a5b625535bbaa71859e7d1",
+    "issue-B/source.ifc": "9cfc5195f94a3990c935275c1cec688c42604ce7fe749134a56c144e0db55cee",
+    "plan.png": "d58837754b384933835e0d4d44b7987c19fce98bdd5cdc29babc59061635ceed",
+    "sections.png": "382f4414af6bd2873382cc75f3334eb4e4eb531636c3cd9f8ffc60fa269eb47e",
+    "stale-audit.json": "bf8f4d522fef3ea9e48eb647790b80bc314b7f85f1afc0a23e9da7c2eb743112",
+    "unchanged-control.json": "0ccd5ec12ead3ba1d01ae742bdd3c64af31fa91337e3c61b552ccb5f008d8eb7",
+    "walkthrough.webm": "e712c3e49f6dd40c5c74b703925eca8ae639563e06fe1557913b88a4424649fd",
+    "workspace.png": "f8195e2e5a8929cb6f206b1e0294352000a800eb1b64b7a22561c690d9038fea"
+  }
+}

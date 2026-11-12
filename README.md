@@ -1,6 +1,6 @@
 # Application Portfolio Pipeline — pilot planning pack
 
-Updated November 10, 2026. Status: **Bonsai authoring gate accepted after independent owner review**.
+Updated November 12, 2026. Status: **Fluidstack MVP accepted; ANS enclosure extension implemented for review**.
 
 Pilot: **OpenBIM Engineering Change Auditor**, an independent portfolio project targeted at Fluidstack's Software Engineer, Manufacturing & Supply Chain role.
 
@@ -9,6 +9,7 @@ Pilot: **OpenBIM Engineering Change Auditor**, an independent portfolio project 
 - [Installation commands](docs/setup.md): Ubuntu setup, Python and browser dependencies, Bonsai installation, and validation.
 - [Commit policy](docs/commit-policy.md): concise subsystem subjects and dependency-ordered changes for agent navigation.
 - [ANS extension plan](docs/ans-extension-plan.md): enclosure footings, base plates, and HSS posts; inspected public IFC sources and proposed drawing/revision workflow.
+- [ANS implementation and evidence](pilots/fluidstack-change-auditor/docs/enclosure.md): model/drawing coordination, editable DXFs, schedules, walkthrough, and remaining review gates.
 
 The [implemented pilot](pilots/fluidstack-change-auditor/README.md) follows one beam revision from IFC geometry through synthetic BOM and procurement evidence. See its [validation record](pilots/fluidstack-change-auditor/docs/validation.md) for measured results and outstanding scope.
 

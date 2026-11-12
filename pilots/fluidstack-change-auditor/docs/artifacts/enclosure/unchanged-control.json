@@ -1,0 +1,373 @@
+{
+  "engine_version": "enclosure-1.0",
+  "baseline_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+  "revised_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+  "package_id": "f6ccea52252ec570dd8fa1ef69e1ce8b8ca95f6a5d3d7f9db14e61a3f3696d2e",
+  "summary": {
+    "unchanged": 6,
+    "modified": 0,
+    "added": 0,
+    "removed": 0,
+    "stale_documents": 0,
+    "alignment_findings": 0,
+    "uncertain_components": 0
+  },
+  "entries": [
+    {
+      "guid": "04NJDIwMbPWRzEVGshL4wQ",
+      "kind": "unchanged",
+      "before": {
+        "guid": "04NJDIwMbPWRzEVGshL4wQ",
+        "tag": "HSS-02",
+        "class": "IfcColumn",
+        "role": "post",
+        "assembly": "AS-02",
+        "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+        "material": "Illustrative steel; grade unspecified",
+        "dimensions": {
+          "width_m": 0.1016,
+          "length_m": 0.1016,
+          "wall_thickness_m": 0.00635,
+          "height_m": 1.8288,
+          "volume_m3": 0.0044245073,
+          "x_m": 2.4384,
+          "y_m": 0.0,
+          "z_m": 0.0127
+        },
+        "geometry_source": "#132 IfcExtrudedAreaSolid / #88 IfcRectangleHollowProfileDef",
+        "issues": [],
+        "source": {
+          "revision_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+          "step_id": 126,
+          "file": "enclosure-baseline.ifc",
+          "global_id": "04NJDIwMbPWRzEVGshL4wQ"
+        }
+      },
+      "after": {
+        "guid": "04NJDIwMbPWRzEVGshL4wQ",
+        "tag": "HSS-02",
+        "class": "IfcColumn",
+        "role": "post",
+        "assembly": "AS-02",
+        "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+        "material": "Illustrative steel; grade unspecified",
+        "dimensions": {
+          "width_m": 0.1016,
+          "length_m": 0.1016,
+          "wall_thickness_m": 0.00635,
+          "height_m": 1.8288,
+          "volume_m3": 0.0044245073,
+          "x_m": 2.4384,
+          "y_m": 0.0,
+          "z_m": 0.0127
+        },
+        "geometry_source": "#132 IfcExtrudedAreaSolid / #88 IfcRectangleHollowProfileDef",
+        "issues": [],
+        "source": {
+          "revision_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+          "step_id": 126,
+          "file": "enclosure-baseline.ifc",
+          "global_id": "04NJDIwMbPWRzEVGshL4wQ"
+        }
+      },
+      "changes": [],
+      "issues": []
+    },
+    {
+      "guid": "1Udf14m1LHGP8ZUWLqfvl0",
+      "kind": "unchanged",
+      "before": {
+        "guid": "1Udf14m1LHGP8ZUWLqfvl0",
+        "tag": "BP-01",
+        "class": "IfcPlate",
+        "role": "plate",
+        "assembly": "AS-01",
+        "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+        "material": "Illustrative steel; grade unspecified",
+        "dimensions": {
+          "width_m": 0.254,
+          "length_m": 0.254,
+          "thickness_m": 0.0127,
+          "volume_m3": 0.0008193532,
+          "x_m": 0.0,
+          "y_m": 0.0,
+          "z_m": 0.0
+        },
+        "geometry_source": "#54 IfcExtrudedAreaSolid / #25 IfcRectangleProfileDef",
+        "issues": [],
+        "source": {
+          "revision_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+          "step_id": 48,
+          "file": "enclosure-baseline.ifc",
+          "global_id": "1Udf14m1LHGP8ZUWLqfvl0"
+        }
+      },
+      "after": {
+        "guid": "1Udf14m1LHGP8ZUWLqfvl0",
+        "tag": "BP-01",
+        "class": "IfcPlate",
+        "role": "plate",
+        "assembly": "AS-01",
+        "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+        "material": "Illustrative steel; grade unspecified",
+        "dimensions": {
+          "width_m": 0.254,
+          "length_m": 0.254,
+          "thickness_m": 0.0127,
+          "volume_m3": 0.0008193532,
+          "x_m": 0.0,
+          "y_m": 0.0,
+          "z_m": 0.0
+        },
+        "geometry_source": "#54 IfcExtrudedAreaSolid / #25 IfcRectangleProfileDef",
+        "issues": [],
+        "source": {
+          "revision_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+          "step_id": 48,
+          "file": "enclosure-baseline.ifc",
+          "global_id": "1Udf14m1LHGP8ZUWLqfvl0"
+        }
+      },
+      "changes": [],
+      "issues": []
+    },
+    {
+      "guid": "1oNdS1$fjUpxg3BWoZOxbc",
+      "kind": "unchanged",
+      "before": {
+        "guid": "1oNdS1$fjUpxg3BWoZOxbc",
+        "tag": "BP-02",
+        "class": "IfcPlate",
+        "role": "plate",
+        "assembly": "AS-02",
+        "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+        "material": "Illustrative steel; grade unspecified",
+        "dimensions": {
+          "width_m": 0.254,
+          "length_m": 0.254,
+          "thickness_m": 0.0127,
+          "volume_m3": 0.0008193532,
+          "x_m": 2.4384,
+          "y_m": 0.0,
+          "z_m": 0.0
+        },
+        "geometry_source": "#114 IfcExtrudedAreaSolid / #87 IfcRectangleProfileDef",
+        "issues": [],
+        "source": {
+          "revision_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+          "step_id": 108,
+          "file": "enclosure-baseline.ifc",
+          "global_id": "1oNdS1$fjUpxg3BWoZOxbc"
+        }
+      },
+      "after": {
+        "guid": "1oNdS1$fjUpxg3BWoZOxbc",
+        "tag": "BP-02",
+        "class": "IfcPlate",
+        "role": "plate",
+        "assembly": "AS-02",
+        "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+        "material": "Illustrative steel; grade unspecified",
+        "dimensions": {
+          "width_m": 0.254,
+          "length_m": 0.254,
+          "thickness_m": 0.0127,
+          "volume_m3": 0.0008193532,
+          "x_m": 2.4384,
+          "y_m": 0.0,
+          "z_m": 0.0
+        },
+        "geometry_source": "#114 IfcExtrudedAreaSolid / #87 IfcRectangleProfileDef",
+        "issues": [],
+        "source": {
+          "revision_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+          "step_id": 108,
+          "file": "enclosure-baseline.ifc",
+          "global_id": "1oNdS1$fjUpxg3BWoZOxbc"
+        }
+      },
+      "changes": [],
+      "issues": []
+    },
+    {
+      "guid": "1vVNAnWkzIBuLMbZ8rkoVx",
+      "kind": "unchanged",
+      "before": {
+        "guid": "1vVNAnWkzIBuLMbZ8rkoVx",
+        "tag": "F-02",
+        "class": "IfcFooting",
+        "role": "footing",
+        "assembly": "AS-02",
+        "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+        "material": "Illustrative cast-in-place concrete",
+        "dimensions": {
+          "diameter_m": 0.6096,
+          "depth_m": 1.2192,
+          "volume_m3": 0.3558399889,
+          "x_m": 2.4384,
+          "y_m": 0.0,
+          "z_m": -1.2192
+        },
+        "geometry_source": "#96 IfcExtrudedAreaSolid / #86 IfcCircleProfileDef",
+        "issues": [],
+        "source": {
+          "revision_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+          "step_id": 89,
+          "file": "enclosure-baseline.ifc",
+          "global_id": "1vVNAnWkzIBuLMbZ8rkoVx"
+        }
+      },
+      "after": {
+        "guid": "1vVNAnWkzIBuLMbZ8rkoVx",
+        "tag": "F-02",
+        "class": "IfcFooting",
+        "role": "footing",
+        "assembly": "AS-02",
+        "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+        "material": "Illustrative cast-in-place concrete",
+        "dimensions": {
+          "diameter_m": 0.6096,
+          "depth_m": 1.2192,
+          "volume_m3": 0.3558399889,
+          "x_m": 2.4384,
+          "y_m": 0.0,
+          "z_m": -1.2192
+        },
+        "geometry_source": "#96 IfcExtrudedAreaSolid / #86 IfcCircleProfileDef",
+        "issues": [],
+        "source": {
+          "revision_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+          "step_id": 89,
+          "file": "enclosure-baseline.ifc",
+          "global_id": "1vVNAnWkzIBuLMbZ8rkoVx"
+        }
+      },
+      "changes": [],
+      "issues": []
+    },
+    {
+      "guid": "1yA9K6kvbUgw0Hik00NhJ2",
+      "kind": "unchanged",
+      "before": {
+        "guid": "1yA9K6kvbUgw0Hik00NhJ2",
+        "tag": "F-01",
+        "class": "IfcFooting",
+        "role": "footing",
+        "assembly": "AS-01",
+        "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+        "material": "Illustrative cast-in-place concrete",
+        "dimensions": {
+          "diameter_m": 0.6096,
+          "depth_m": 1.2192,
+          "volume_m3": 0.3558399889,
+          "x_m": 0.0,
+          "y_m": 0.0,
+          "z_m": -1.2192
+        },
+        "geometry_source": "#35 IfcExtrudedAreaSolid / #24 IfcCircleProfileDef",
+        "issues": [],
+        "source": {
+          "revision_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+          "step_id": 27,
+          "file": "enclosure-baseline.ifc",
+          "global_id": "1yA9K6kvbUgw0Hik00NhJ2"
+        }
+      },
+      "after": {
+        "guid": "1yA9K6kvbUgw0Hik00NhJ2",
+        "tag": "F-01",
+        "class": "IfcFooting",
+        "role": "footing",
+        "assembly": "AS-01",
+        "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+        "material": "Illustrative cast-in-place concrete",
+        "dimensions": {
+          "diameter_m": 0.6096,
+          "depth_m": 1.2192,
+          "volume_m3": 0.3558399889,
+          "x_m": 0.0,
+          "y_m": 0.0,
+          "z_m": -1.2192
+        },
+        "geometry_source": "#35 IfcExtrudedAreaSolid / #24 IfcCircleProfileDef",
+        "issues": [],
+        "source": {
+          "revision_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+          "step_id": 27,
+          "file": "enclosure-baseline.ifc",
+          "global_id": "1yA9K6kvbUgw0Hik00NhJ2"
+        }
+      },
+      "changes": [],
+      "issues": []
+    },
+    {
+      "guid": "3hnl2f$i5R2xLAtCXYaUm9",
+      "kind": "unchanged",
+      "before": {
+        "guid": "3hnl2f$i5R2xLAtCXYaUm9",
+        "tag": "HSS-01",
+        "class": "IfcColumn",
+        "role": "post",
+        "assembly": "AS-01",
+        "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+        "material": "Illustrative steel; grade unspecified",
+        "dimensions": {
+          "width_m": 0.1016,
+          "length_m": 0.1016,
+          "wall_thickness_m": 0.00635,
+          "height_m": 1.8288,
+          "volume_m3": 0.0044245073,
+          "x_m": 0.0,
+          "y_m": 0.0,
+          "z_m": 0.0127
+        },
+        "geometry_source": "#73 IfcExtrudedAreaSolid / #26 IfcRectangleHollowProfileDef",
+        "issues": [],
+        "source": {
+          "revision_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+          "step_id": 67,
+          "file": "enclosure-baseline.ifc",
+          "global_id": "3hnl2f$i5R2xLAtCXYaUm9"
+        }
+      },
+      "after": {
+        "guid": "3hnl2f$i5R2xLAtCXYaUm9",
+        "tag": "HSS-01",
+        "class": "IfcColumn",
+        "role": "post",
+        "assembly": "AS-01",
+        "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+        "material": "Illustrative steel; grade unspecified",
+        "dimensions": {
+          "width_m": 0.1016,
+          "length_m": 0.1016,
+          "wall_thickness_m": 0.00635,
+          "height_m": 1.8288,
+          "volume_m3": 0.0044245073,
+          "x_m": 0.0,
+          "y_m": 0.0,
+          "z_m": 0.0127
+        },
+        "geometry_source": "#73 IfcExtrudedAreaSolid / #26 IfcRectangleHollowProfileDef",
+        "issues": [],
+        "source": {
+          "revision_id": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+          "step_id": 67,
+          "file": "enclosure-baseline.ifc",
+          "global_id": "3hnl2f$i5R2xLAtCXYaUm9"
+        }
+      },
+      "changes": [],
+      "issues": []
+    }
+  ],
+  "drawing_findings": [],
+  "alignment_findings": [],
+  "scope": "Detail consistency; concentric, vertical, direct-bearing supports. Illustrative dimensions; no structural capacity or code approval.",
+  "tolerances": {
+    "length_m": 0.0001,
+    "volume_m3": 1e-06
+  },
+  "id": "6d4328cbbaf38ae6457555a19a9311cfd77c93a47b3fa1fe54a7399cf78895be"
+}

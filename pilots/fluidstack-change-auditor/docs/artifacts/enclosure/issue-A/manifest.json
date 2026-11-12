@@ -1,0 +1,454 @@
+{
+  "source_revision": "3395e6a9dbcf24390059179647fe63d96b8013419d40eed4eca0cb07c2098900",
+  "project_guid": "0vNacCBInQtRsP$ia0Jc9Q",
+  "issue_revision": "A",
+  "status": "review_draft",
+  "template_version": "1.0",
+  "documents": [
+    {
+      "id": "S-101",
+      "title": "Foundation plan and plate details",
+      "dependencies": {
+        "04NJDIwMbPWRzEVGshL4wQ": {
+          "fingerprint": "a983b9c16ec7444d442db4e475632bd008c2c2e23b6391786034d0ec58a1da13",
+          "fields": {
+            "tag": "HSS-02",
+            "class": "IfcColumn",
+            "assembly": "AS-02",
+            "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+            "material": "Illustrative steel; grade unspecified",
+            "width_m": 0.1016,
+            "length_m": 0.1016,
+            "wall_thickness_m": 0.00635,
+            "height_m": 1.8288,
+            "volume_m3": 0.0044245073,
+            "x_m": 2.4384,
+            "y_m": 0.0,
+            "z_m": 0.0127
+          }
+        },
+        "1Udf14m1LHGP8ZUWLqfvl0": {
+          "fingerprint": "d6a997178482c6f7a69093a2b612b4ab54e9422dd1a5354ccb8a078987fa9211",
+          "fields": {
+            "tag": "BP-01",
+            "class": "IfcPlate",
+            "assembly": "AS-01",
+            "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+            "material": "Illustrative steel; grade unspecified",
+            "width_m": 0.254,
+            "length_m": 0.254,
+            "thickness_m": 0.0127,
+            "volume_m3": 0.0008193532,
+            "x_m": 0.0,
+            "y_m": 0.0,
+            "z_m": 0.0
+          }
+        },
+        "1oNdS1$fjUpxg3BWoZOxbc": {
+          "fingerprint": "dfa207270405a3b381d0c024e7b8dee06910860afbe22abdc4660e733ef2af1b",
+          "fields": {
+            "tag": "BP-02",
+            "class": "IfcPlate",
+            "assembly": "AS-02",
+            "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+            "material": "Illustrative steel; grade unspecified",
+            "width_m": 0.254,
+            "length_m": 0.254,
+            "thickness_m": 0.0127,
+            "volume_m3": 0.0008193532,
+            "x_m": 2.4384,
+            "y_m": 0.0,
+            "z_m": 0.0
+          }
+        },
+        "1vVNAnWkzIBuLMbZ8rkoVx": {
+          "fingerprint": "96a515acfb942a76c0d547a484784e8cdefb8bdfe0308b59551d14b1ca34fee5",
+          "fields": {
+            "tag": "F-02",
+            "class": "IfcFooting",
+            "assembly": "AS-02",
+            "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+            "material": "Illustrative cast-in-place concrete",
+            "diameter_m": 0.6096,
+            "depth_m": 1.2192,
+            "volume_m3": 0.3558399889,
+            "x_m": 2.4384,
+            "y_m": 0.0,
+            "z_m": -1.2192
+          }
+        },
+        "1yA9K6kvbUgw0Hik00NhJ2": {
+          "fingerprint": "0bf1358f9167b3620d99e052c5b947e4708658e759af1fa54117213975ae5752",
+          "fields": {
+            "tag": "F-01",
+            "class": "IfcFooting",
+            "assembly": "AS-01",
+            "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+            "material": "Illustrative cast-in-place concrete",
+            "diameter_m": 0.6096,
+            "depth_m": 1.2192,
+            "volume_m3": 0.3558399889,
+            "x_m": 0.0,
+            "y_m": 0.0,
+            "z_m": -1.2192
+          }
+        },
+        "3hnl2f$i5R2xLAtCXYaUm9": {
+          "fingerprint": "beb99abd7ffbeba885afaefac871ffb4f3bcdb05295dbde683fe7ec5603747ef",
+          "fields": {
+            "tag": "HSS-01",
+            "class": "IfcColumn",
+            "assembly": "AS-01",
+            "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+            "material": "Illustrative steel; grade unspecified",
+            "width_m": 0.1016,
+            "length_m": 0.1016,
+            "wall_thickness_m": 0.00635,
+            "height_m": 1.8288,
+            "volume_m3": 0.0044245073,
+            "x_m": 0.0,
+            "y_m": 0.0,
+            "z_m": 0.0127
+          }
+        }
+      },
+      "files": {
+        "dxf": "S-101.dxf",
+        "svg": "S-101.svg"
+      }
+    },
+    {
+      "id": "S-501",
+      "title": "Support sections and elevations",
+      "dependencies": {
+        "04NJDIwMbPWRzEVGshL4wQ": {
+          "fingerprint": "a983b9c16ec7444d442db4e475632bd008c2c2e23b6391786034d0ec58a1da13",
+          "fields": {
+            "tag": "HSS-02",
+            "class": "IfcColumn",
+            "assembly": "AS-02",
+            "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+            "material": "Illustrative steel; grade unspecified",
+            "width_m": 0.1016,
+            "length_m": 0.1016,
+            "wall_thickness_m": 0.00635,
+            "height_m": 1.8288,
+            "volume_m3": 0.0044245073,
+            "x_m": 2.4384,
+            "y_m": 0.0,
+            "z_m": 0.0127
+          }
+        },
+        "1Udf14m1LHGP8ZUWLqfvl0": {
+          "fingerprint": "d6a997178482c6f7a69093a2b612b4ab54e9422dd1a5354ccb8a078987fa9211",
+          "fields": {
+            "tag": "BP-01",
+            "class": "IfcPlate",
+            "assembly": "AS-01",
+            "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+            "material": "Illustrative steel; grade unspecified",
+            "width_m": 0.254,
+            "length_m": 0.254,
+            "thickness_m": 0.0127,
+            "volume_m3": 0.0008193532,
+            "x_m": 0.0,
+            "y_m": 0.0,
+            "z_m": 0.0
+          }
+        },
+        "1oNdS1$fjUpxg3BWoZOxbc": {
+          "fingerprint": "dfa207270405a3b381d0c024e7b8dee06910860afbe22abdc4660e733ef2af1b",
+          "fields": {
+            "tag": "BP-02",
+            "class": "IfcPlate",
+            "assembly": "AS-02",
+            "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+            "material": "Illustrative steel; grade unspecified",
+            "width_m": 0.254,
+            "length_m": 0.254,
+            "thickness_m": 0.0127,
+            "volume_m3": 0.0008193532,
+            "x_m": 2.4384,
+            "y_m": 0.0,
+            "z_m": 0.0
+          }
+        },
+        "1vVNAnWkzIBuLMbZ8rkoVx": {
+          "fingerprint": "96a515acfb942a76c0d547a484784e8cdefb8bdfe0308b59551d14b1ca34fee5",
+          "fields": {
+            "tag": "F-02",
+            "class": "IfcFooting",
+            "assembly": "AS-02",
+            "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+            "material": "Illustrative cast-in-place concrete",
+            "diameter_m": 0.6096,
+            "depth_m": 1.2192,
+            "volume_m3": 0.3558399889,
+            "x_m": 2.4384,
+            "y_m": 0.0,
+            "z_m": -1.2192
+          }
+        },
+        "1yA9K6kvbUgw0Hik00NhJ2": {
+          "fingerprint": "0bf1358f9167b3620d99e052c5b947e4708658e759af1fa54117213975ae5752",
+          "fields": {
+            "tag": "F-01",
+            "class": "IfcFooting",
+            "assembly": "AS-01",
+            "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+            "material": "Illustrative cast-in-place concrete",
+            "diameter_m": 0.6096,
+            "depth_m": 1.2192,
+            "volume_m3": 0.3558399889,
+            "x_m": 0.0,
+            "y_m": 0.0,
+            "z_m": -1.2192
+          }
+        },
+        "3hnl2f$i5R2xLAtCXYaUm9": {
+          "fingerprint": "beb99abd7ffbeba885afaefac871ffb4f3bcdb05295dbde683fe7ec5603747ef",
+          "fields": {
+            "tag": "HSS-01",
+            "class": "IfcColumn",
+            "assembly": "AS-01",
+            "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+            "material": "Illustrative steel; grade unspecified",
+            "width_m": 0.1016,
+            "length_m": 0.1016,
+            "wall_thickness_m": 0.00635,
+            "height_m": 1.8288,
+            "volume_m3": 0.0044245073,
+            "x_m": 0.0,
+            "y_m": 0.0,
+            "z_m": 0.0127
+          }
+        }
+      },
+      "files": {
+        "dxf": "S-501.dxf",
+        "svg": "S-501.svg"
+      }
+    },
+    {
+      "id": "SCH-01",
+      "title": "Component schedule",
+      "dependencies": {
+        "04NJDIwMbPWRzEVGshL4wQ": {
+          "fingerprint": "a983b9c16ec7444d442db4e475632bd008c2c2e23b6391786034d0ec58a1da13",
+          "fields": {
+            "tag": "HSS-02",
+            "class": "IfcColumn",
+            "assembly": "AS-02",
+            "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+            "material": "Illustrative steel; grade unspecified",
+            "width_m": 0.1016,
+            "length_m": 0.1016,
+            "wall_thickness_m": 0.00635,
+            "height_m": 1.8288,
+            "volume_m3": 0.0044245073,
+            "x_m": 2.4384,
+            "y_m": 0.0,
+            "z_m": 0.0127
+          }
+        },
+        "1Udf14m1LHGP8ZUWLqfvl0": {
+          "fingerprint": "d6a997178482c6f7a69093a2b612b4ab54e9422dd1a5354ccb8a078987fa9211",
+          "fields": {
+            "tag": "BP-01",
+            "class": "IfcPlate",
+            "assembly": "AS-01",
+            "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+            "material": "Illustrative steel; grade unspecified",
+            "width_m": 0.254,
+            "length_m": 0.254,
+            "thickness_m": 0.0127,
+            "volume_m3": 0.0008193532,
+            "x_m": 0.0,
+            "y_m": 0.0,
+            "z_m": 0.0
+          }
+        },
+        "1oNdS1$fjUpxg3BWoZOxbc": {
+          "fingerprint": "dfa207270405a3b381d0c024e7b8dee06910860afbe22abdc4660e733ef2af1b",
+          "fields": {
+            "tag": "BP-02",
+            "class": "IfcPlate",
+            "assembly": "AS-02",
+            "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+            "material": "Illustrative steel; grade unspecified",
+            "width_m": 0.254,
+            "length_m": 0.254,
+            "thickness_m": 0.0127,
+            "volume_m3": 0.0008193532,
+            "x_m": 2.4384,
+            "y_m": 0.0,
+            "z_m": 0.0
+          }
+        },
+        "1vVNAnWkzIBuLMbZ8rkoVx": {
+          "fingerprint": "96a515acfb942a76c0d547a484784e8cdefb8bdfe0308b59551d14b1ca34fee5",
+          "fields": {
+            "tag": "F-02",
+            "class": "IfcFooting",
+            "assembly": "AS-02",
+            "assembly_guid": "2yN82YHPDHnwvAfx_5xCua",
+            "material": "Illustrative cast-in-place concrete",
+            "diameter_m": 0.6096,
+            "depth_m": 1.2192,
+            "volume_m3": 0.3558399889,
+            "x_m": 2.4384,
+            "y_m": 0.0,
+            "z_m": -1.2192
+          }
+        },
+        "1yA9K6kvbUgw0Hik00NhJ2": {
+          "fingerprint": "0bf1358f9167b3620d99e052c5b947e4708658e759af1fa54117213975ae5752",
+          "fields": {
+            "tag": "F-01",
+            "class": "IfcFooting",
+            "assembly": "AS-01",
+            "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+            "material": "Illustrative cast-in-place concrete",
+            "diameter_m": 0.6096,
+            "depth_m": 1.2192,
+            "volume_m3": 0.3558399889,
+            "x_m": 0.0,
+            "y_m": 0.0,
+            "z_m": -1.2192
+          }
+        },
+        "3hnl2f$i5R2xLAtCXYaUm9": {
+          "fingerprint": "beb99abd7ffbeba885afaefac871ffb4f3bcdb05295dbde683fe7ec5603747ef",
+          "fields": {
+            "tag": "HSS-01",
+            "class": "IfcColumn",
+            "assembly": "AS-01",
+            "assembly_guid": "0iS8TmXHbPqenblPwcnSKS",
+            "material": "Illustrative steel; grade unspecified",
+            "width_m": 0.1016,
+            "length_m": 0.1016,
+            "wall_thickness_m": 0.00635,
+            "height_m": 1.8288,
+            "volume_m3": 0.0044245073,
+            "x_m": 0.0,
+            "y_m": 0.0,
+            "z_m": 0.0127
+          }
+        }
+      },
+      "files": {
+        "json": "schedule.json",
+        "csv": "schedule.csv"
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "mark": "BP-01",
+      "assembly": "AS-01",
+      "guid": "1Udf14m1LHGP8ZUWLqfvl0",
+      "role": "plate",
+      "material": "Illustrative steel; grade unspecified",
+      "dimensions_in": {
+        "length": 10.0,
+        "thickness": 0.5,
+        "width": 10.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "volume_m3": 0.0008193532
+    },
+    {
+      "mark": "F-01",
+      "assembly": "AS-01",
+      "guid": "1yA9K6kvbUgw0Hik00NhJ2",
+      "role": "footing",
+      "material": "Illustrative cast-in-place concrete",
+      "dimensions_in": {
+        "depth": 48.0,
+        "diameter": 24.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": -48.0
+      },
+      "volume_m3": 0.3558399889
+    },
+    {
+      "mark": "HSS-01",
+      "assembly": "AS-01",
+      "guid": "3hnl2f$i5R2xLAtCXYaUm9",
+      "role": "post",
+      "material": "Illustrative steel; grade unspecified",
+      "dimensions_in": {
+        "height": 72.0,
+        "length": 4.0,
+        "wall_thickness": 0.25,
+        "width": 4.0,
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "volume_m3": 0.0044245073
+    },
+    {
+      "mark": "BP-02",
+      "assembly": "AS-02",
+      "guid": "1oNdS1$fjUpxg3BWoZOxbc",
+      "role": "plate",
+      "material": "Illustrative steel; grade unspecified",
+      "dimensions_in": {
+        "length": 10.0,
+        "thickness": 0.5,
+        "width": 10.0,
+        "x": 96.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "volume_m3": 0.0008193532
+    },
+    {
+      "mark": "F-02",
+      "assembly": "AS-02",
+      "guid": "1vVNAnWkzIBuLMbZ8rkoVx",
+      "role": "footing",
+      "material": "Illustrative cast-in-place concrete",
+      "dimensions_in": {
+        "depth": 48.0,
+        "diameter": 24.0,
+        "x": 96.0,
+        "y": 0.0,
+        "z": -48.0
+      },
+      "volume_m3": 0.3558399889
+    },
+    {
+      "mark": "HSS-02",
+      "assembly": "AS-02",
+      "guid": "04NJDIwMbPWRzEVGshL4wQ",
+      "role": "post",
+      "material": "Illustrative steel; grade unspecified",
+      "dimensions_in": {
+        "height": 72.0,
+        "length": 4.0,
+        "wall_thickness": 0.25,
+        "width": 4.0,
+        "x": 96.0,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "volume_m3": 0.0044245073
+    }
+  ],
+  "alignment_findings": [],
+  "artifacts": {
+    "S-101.dxf": "aedb0b76f50a8d7fc81d1553fabced46781b3b25befc13bd0168e676d21ebea9",
+    "S-101.svg": "887704b73f3bc41217c1501cf83abb84e86e7cfa48731b21ed48524e34732560",
+    "S-501.dxf": "5b5722f971b3fe939a0a80c2b4d61fd55ee13d9c1099b0af2ef374c99815c7ca",
+    "S-501.svg": "1b1d1d579a2ba0a9bbff0e7c6dc2c6ddf5bd8f10901bac62a97f34ca719579bb",
+    "schedule.json": "356d680a5d7445d163f50706e93c251da1d843b13656938f543ef5a891712a11",
+    "schedule.csv": "883cb2aa1198611169e02ee28fed52f9a23c2c7e7c28336af11c95fc497ea5a1"
+  },
+  "assumptions": "Illustrative dimensions; sharp HSS corners; concentric direct bearing; anchors, welds, reinforcement, and structural capacity unspecified.",
+  "id": "f6ccea52252ec570dd8fa1ef69e1ce8b8ca95f6a5d3d7f9db14e61a3f3696d2e"
+}

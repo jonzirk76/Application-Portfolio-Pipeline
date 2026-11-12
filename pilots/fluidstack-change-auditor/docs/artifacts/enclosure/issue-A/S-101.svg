@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 190" width="1560" height="1140" role="img" aria-label="FOUNDATION PLAN &amp; BASE PLATE DETAILS">
+<rect width="100%" height="100%" fill="#fffef9"/>
+<rect x="2" y="2" width="256" height="186" fill="none" stroke="#a5b1a8" stroke-width="0.3"/>
+<text x="8" y="11" fill="#243b33" font-family="sans-serif" font-size="4">FOUNDATION PLAN &amp; BASE PLATE DETAILS</text>
+<text x="8" y="17" fill="#243b33" font-family="sans-serif" font-size="2">ENCLOSURE SUPPORTS / ILLUSTRATIVE DETAILING EXAMPLE</text>
+<line x1="2" y1="175" x2="258" y2="175" stroke="#a5b1a8" stroke-width="0.2"/>
+<text x="8" y="180" fill="#243b33" font-family="sans-serif" font-size="2">S-101  |  ISSUE A  |  REVIEW DRAFT  |  ALL DIMENSIONS IN INCHES</text>
+<text x="8" y="185" fill="#243b33" font-family="sans-serif" font-size="1.7">SOURCE SHA-256 3395e6a9dbcf243900591796  |  FULL HASH IN ISSUE MANIFEST</text>
+<text x="10" y="31" fill="#243b33" font-family="sans-serif" font-size="2.3">PLAN — COMPONENT LOCATIONS AT 1:1 IN DXF MODEL SPACE</text>
+<rect x="35.0" y="65.0" width="10.0" height="10.0" fill="none" stroke="#a5752b" stroke-width="0.3"/>
+<circle cx="40.0" cy="70.0" r="12.0" fill="none" stroke="#68776d" stroke-width="0.3"/>
+<path d="M28.0 70.0 L28.0 90.0" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M52.0 70.0 L52.0 90.0" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M28.0 90.0 L52.0 90.0" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M27.3 90.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<path d="M51.3 90.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<text x="40.0" y="89.0" font-family="sans-serif" font-size="2" fill="#4c6560">24</text>
+<text x="28.0" y="53.0" fill="#243b33" font-family="sans-serif" font-size="2.2">AS-01 / F-01</text>
+<rect x="38.0" y="68.0" width="4.0" height="4.0" fill="none" stroke="#27564a" stroke-width="0.3"/>
+<rect x="38.25" y="68.25" width="3.5" height="3.5" fill="none" stroke="#27564a" stroke-width="0.3"/>
+<rect x="35.0" y="122.0" width="10.0" height="10.0" fill="none" stroke="#a5752b" stroke-width="0.3"/>
+<rect x="38.0" y="125.0" width="4.0" height="4.0" fill="none" stroke="#27564a" stroke-width="0.3"/>
+<rect x="38.25" y="125.25" width="3.5" height="3.5" fill="none" stroke="#27564a" stroke-width="0.3"/>
+<path d="M35.0 127 L35.0 139" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M45.0 127 L45.0 139" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M35.0 139 L45.0 139" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M34.3 139.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<path d="M44.3 139.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<text x="40.0" y="138" font-family="sans-serif" font-size="2" fill="#4c6560">10</text>
+<path d="M40 132.0 L52 132.0" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M40 122.0 L52 122.0" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M52 132.0 L52 122.0" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M51.3 132.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<path d="M51.3 122.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<text x="53" y="127.0" font-family="sans-serif" font-size="2" fill="#4c6560">10</text>
+<text x="18" y="110" fill="#243b33" font-family="sans-serif" font-size="2.2">BP-01 / HSS-01 — BASE PLATE PLAN</text>
+<text x="18" y="148" fill="#243b33" font-family="sans-serif" font-size="2.2">PLATE 10 x 10 x 0.5</text>
+<text x="18" y="153" fill="#243b33" font-family="sans-serif" font-size="2.2">HSS 4 x 4 x 0.25 WALL</text>
+<rect x="134.0" y="68.0" width="4.0" height="4.0" fill="none" stroke="#27564a" stroke-width="0.3"/>
+<rect x="134.25" y="68.25" width="3.5" height="3.5" fill="none" stroke="#27564a" stroke-width="0.3"/>
+<rect x="131.0" y="65.0" width="10.0" height="10.0" fill="none" stroke="#a5752b" stroke-width="0.3"/>
+<circle cx="136.0" cy="70.0" r="12.0" fill="none" stroke="#68776d" stroke-width="0.3"/>
+<path d="M124.0 70.0 L124.0 90.0" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M148.0 70.0 L148.0 90.0" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M124.0 90.0 L148.0 90.0" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M123.3 90.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<path d="M147.3 90.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<text x="136.0" y="89.0" font-family="sans-serif" font-size="2" fill="#4c6560">24</text>
+<text x="124.0" y="53.0" fill="#243b33" font-family="sans-serif" font-size="2.2">AS-02 / F-02</text>
+<rect x="145.0" y="122.0" width="10.0" height="10.0" fill="none" stroke="#a5752b" stroke-width="0.3"/>
+<rect x="148.0" y="125.0" width="4.0" height="4.0" fill="none" stroke="#27564a" stroke-width="0.3"/>
+<rect x="148.25" y="125.25" width="3.5" height="3.5" fill="none" stroke="#27564a" stroke-width="0.3"/>
+<path d="M145.0 127 L145.0 139" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M155.0 127 L155.0 139" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M145.0 139 L155.0 139" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M144.3 139.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<path d="M154.3 139.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<text x="150.0" y="138" font-family="sans-serif" font-size="2" fill="#4c6560">10</text>
+<path d="M150 132.0 L162 132.0" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M150 122.0 L162 122.0" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M162 132.0 L162 122.0" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M161.3 132.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<path d="M161.3 122.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<text x="163" y="127.0" font-family="sans-serif" font-size="2" fill="#4c6560">10</text>
+<text x="128" y="110" fill="#243b33" font-family="sans-serif" font-size="2.2">BP-02 / HSS-02 — BASE PLATE PLAN</text>
+<text x="128" y="148" fill="#243b33" font-family="sans-serif" font-size="2.2">PLATE 10 x 10 x 0.5</text>
+<text x="128" y="153" fill="#243b33" font-family="sans-serif" font-size="2.2">HSS 4 x 4 x 0.25 WALL</text>
+<path d="M40.0 70.0 L40.0 102" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M136.0 70.0 L136.0 102" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M40.0 102 L136.0 102" fill="none" stroke="#4c6560" stroke-width="0.15"/>
+<path d="M39.3 102.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<path d="M135.3 102.7 l1.4 -1.4" stroke="#4c6560" stroke-width="0.2"/>
+<text x="88.0" y="101" font-family="sans-serif" font-size="2" fill="#4c6560">96</text>
+<text x="8" y="165" fill="#243b33" font-family="sans-serif" font-size="2">Anchors and welds are not specified in this example. Refer to S-501 for vertical dimensions.</text>
+<text x="8" y="170" fill="#243b33" font-family="sans-serif" font-size="2">HSS corners are idealized as sharp. Dimensions are illustrative; package requires owner review.</text></svg>
