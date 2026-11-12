@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Deterministic IFC4 revision auditing with synthetic BOM and procurement lineage"
 requires-python = ">=3.12"
 dependencies = [
+    "ezdxf==1.4.5",
     "fastapi>=0.162.2",
     "ifcopenshell>=0.9.0.post1",
     "pydantic>=2.14.3",
