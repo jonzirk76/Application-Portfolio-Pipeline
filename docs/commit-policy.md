@@ -23,8 +23,15 @@ Use these stable scopes rather than inventing synonyms:
 | `fluidstack-api` | HTTP contracts, persistence, and audit CLI |
 | `fluidstack-web` | Viewer, browser workflow, and frontend build |
 | `fluidstack-demo` | Local launch orchestration and demonstration capture |
+| `ans` | Enclosure extension documentation and validation |
+| `ans-fixtures` | Original cylindrical footing, plate, and HSS model fixtures |
+| `ans-engine` | Enclosure extraction, drawing generation, dependencies, and storage |
+| `ans-api` | Enclosure import, drawing package, and audit endpoints |
+| `ans-web` | Enclosure review workspace and browser verification |
+| `ans-demo` | Reproducible enclosure reports and walkthrough capture |
 
-The pilot root is `pilots/fluidstack-change-auditor/`. For another pilot, establish
+The pilot root is `pilots/fluidstack-change-auditor/`; the ANS extension currently
+shares that runtime through adjacent `enclosure/`, API, and web modules. For another pilot, establish
 a short, stable prefix and extend this table. Choose one scope for the primary
 responsibility; do not concatenate scope names.
 
