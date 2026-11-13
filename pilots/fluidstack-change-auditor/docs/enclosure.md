@@ -133,13 +133,18 @@ package-hash mismatch; a persistence-order regression check now covers it.
 
 Owner review completed November 13, 2026. The owner confirmed: “Download package
 works and the DXFs are correct.” This closes the package-download and owner DXF
-review gate. The reviewing application and physical/PDF plotting results were
-not specified. `browser-verification.json` retains the historical review status
+review gate. Physical/PDF plotting results were not reported.
+`browser-verification.json` retains the historical review status
 at the time of the scripted recording, before this owner confirmation.
 
+On November 13, the owner also confirmed: “the dxfs open on autodesk viewer.”
+This establishes successful opening in Autodesk's browser viewer. No desktop
+Autodesk opening, editing, save round trip, or plotting was reported.
+
 Remaining gate: **native Autodesk open/plot verification**. Native DXF entities,
-successful parser readback, and the owner review do not establish Autodesk font,
-plotting, or template compatibility. No AutoLISP integration, DWG/DWT/CTB package,
+successful parser readback, owner review, and browser opening do not establish
+desktop Autodesk font, plotting, or template compatibility.
+No AutoLISP integration, DWG/DWT/CTB package,
 team deployment, or actual ANS drawing standard is claimed. Anchors, welds, and
 reinforcement remain unspecified because their arrangement was not supplied.
 
