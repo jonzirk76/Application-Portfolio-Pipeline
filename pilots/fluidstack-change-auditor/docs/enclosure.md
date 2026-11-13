@@ -131,12 +131,17 @@ The recording comparison exposed schedule column ordering that differed after
 canonical JSON storage. Sorting the exported dimension fields resolved the
 package-hash mismatch; a persistence-order regression check now covers it.
 
-Remaining gates: **owner review of the drawing package and native Autodesk
-open/plot verification**. These have not been performed. Native DXF entities and
-successful parser readback do not establish Autodesk font, plotting, or template
-compatibility. No AutoLISP integration, DWG/DWT/CTB package, team deployment, or
-actual ANS drawing standard is claimed. Anchors, welds, and reinforcement remain
-unspecified because their arrangement was not supplied.
+Owner review completed November 13, 2026. The owner confirmed: “Download package
+works and the DXFs are correct.” This closes the package-download and owner DXF
+review gate. The reviewing application and physical/PDF plotting results were
+not specified. `browser-verification.json` retains the historical review status
+at the time of the scripted recording, before this owner confirmation.
+
+Remaining gate: **native Autodesk open/plot verification**. Native DXF entities,
+successful parser readback, and the owner review do not establish Autodesk font,
+plotting, or template compatibility. No AutoLISP integration, DWG/DWT/CTB package,
+team deployment, or actual ANS drawing standard is claimed. Anchors, welds, and
+reinforcement remain unspecified because their arrangement was not supplied.
 
 For independent review, check F-01's 24/30-inch change across model, plan, and
 schedule; the 48-inch depth, 72-inch post height, 10-inch plate width and 1/2-inch

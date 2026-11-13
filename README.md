@@ -1,6 +1,6 @@
 # Application Portfolio Pipeline — pilot planning pack
 
-Updated November 12, 2026. Status: **Fluidstack MVP accepted; ANS enclosure extension implemented for review**.
+Updated November 13, 2026. Status: **Fluidstack MVP accepted; ANS package download and DXFs accepted by owner; native Autodesk open/plot verification pending**.
 
 Pilot: **OpenBIM Engineering Change Auditor**, an independent portfolio project targeted at Fluidstack's Software Engineer, Manufacturing & Supply Chain role.
 

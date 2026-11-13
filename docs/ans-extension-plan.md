@@ -1,7 +1,8 @@
 # ANS extension — enclosure foundation detailing
 
-Prepared November 11, 2026; updated November 12. Status: **prototype implemented;
-owner drawing review and native Autodesk verification remain open**. The original
+Prepared November 11, 2026; updated November 13. Status: **prototype implemented;
+owner confirmed package download and correct DXFs; native Autodesk open/plot
+verification remains open**. The original
 scope below is retained for comparison. See the [implemented workflow and validation](../pilots/fluidstack-change-auditor/docs/enclosure.md).
 This extends the completed OpenBIM Engineering Change Auditor.
 
